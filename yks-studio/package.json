@@ -1,0 +1,32 @@
+{
+  "name": "yks-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "YKS Instagram içerik stüdyosu: soru reels'leri, bilgi notu gönderileri ve anket hikâyeleri (Remotion ile motion design).",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "ses": "node scripts/ses.mjs",
+    "sfx": "node scripts/sfx.mjs",
+    "render": "node scripts/render.mjs",
+    "typecheck": "tsc --noEmit",
+    "kare": "node scripts/kare.mjs",
+    "metin": "node scripts/metin.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.529",
+    "@remotion/cli": "4.0.529",
+    "@remotion/fonts": "4.0.529",
+    "@remotion/renderer": "4.0.529",
+    "lucide-react": "1.48.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.3",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "esbuild": "0.28.1",
+    "typescript": "7.0.2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "kullaniciAdi": "resesifnet",
+  "slogan": "Her gün yeni soru, yeni not",
+  "logoMetin": "YKS",
+  "palet": "gece",
+  "sesHizi": 1.1,
+  "seslendirme": false,
+  "fonMuzigi": true,
+  "kapanisSes": "Doğru bildiysen yorumlara yaz, takip etmeyi unutma!",
+  "genelEtiketler": [
+    "#yks",
+    "#yks2027",
+    "#tyt"
+  ]
+}

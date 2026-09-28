@@ -1,0 +1,258 @@
+[
+  {
+    "id": "mat-uslu-kurallar",
+    "sinav": "TYT",
+    "ders": "Matematik",
+    "ust": "KISA NOT",
+    "baslik": "Üslü Sayılarda ==6 Altın Kural==",
+    "tip": "formul",
+    "maddeler": [
+      [
+        "a^{m} · a^{n} = a^{m+n}",
+        "Çarpma"
+      ],
+      [
+        "a^{m} : a^{n} = a^{m−n}",
+        "Bölme"
+      ],
+      [
+        "(a^{m})^{n} = a^{m·n}",
+        "Üssün üssü"
+      ],
+      [
+        "(a · b)^{n} = a^{n} · b^{n}",
+        "Çarpımın üssü"
+      ],
+      [
+        "a^{0} = 1",
+        "Sıfırıncı kuvvet (a ≠ 0)"
+      ],
+      [
+        "a^{−n} = 1 / a^{n}",
+        "Negatif üs (a ≠ 0)"
+      ]
+    ],
+    "ipucu": "a^{m} + a^{n} ≠ a^{m+n} → Toplamada üsler **toplanmaz!**",
+    "etiketler": [
+      "#tytmatematik",
+      "#üslüsayılar"
+    ]
+  },
+  {
+    "id": "tr-yanlis-yazilanlar",
+    "sinav": "TYT",
+    "ders": "Türkçe",
+    "ust": "KISA NOT",
+    "baslik": "En Çok ==Yanlış Yazılan== 8 Kelime",
+    "tip": "tablo",
+    "basliklar": [
+      "Yanlış",
+      "Doğru"
+    ],
+    "ikonlar": true,
+    "maddeler": [
+      [
+        "herkez",
+        "herkes"
+      ],
+      [
+        "yanlız",
+        "yalnız"
+      ],
+      [
+        "yalnış",
+        "yanlış"
+      ],
+      [
+        "birşey",
+        "bir şey"
+      ],
+      [
+        "hiç bir",
+        "hiçbir"
+      ],
+      [
+        "orjinal",
+        "orijinal"
+      ],
+      [
+        "şöför",
+        "şoför"
+      ],
+      [
+        "eşortman",
+        "eşofman"
+      ]
+    ],
+    "ipucu": "“Bir şey” **ayrı**, “hiçbir” **bitişik** yazılır.",
+    "etiketler": [
+      "#tyttürkçe",
+      "#yazımkuralları"
+    ]
+  },
+  {
+    "id": "fiz-hareket-formulleri",
+    "sinav": "TYT",
+    "ders": "Fizik",
+    "ust": "FORMÜL KARTI",
+    "baslik": "Hareket Formülleri ==Tek Sayfada==",
+    "tip": "formul",
+    "maddeler": [
+      [
+        "v = v_{0} + a · t",
+        "Son hız"
+      ],
+      [
+        "x = v_{0} · t + ½ · a · t^{2}",
+        "Yer değiştirme"
+      ],
+      [
+        "v^{2} = v_{0}^{2} + 2 · a · x",
+        "Zamansız hız"
+      ],
+      [
+        "x = ½ · (v_{0} + v) · t",
+        "Ortalama hızla yol"
+      ],
+      [
+        "h = ½ · g · t^{2}",
+        "Serbest düşme: yol"
+      ],
+      [
+        "v = g · t",
+        "Serbest düşme: hız"
+      ]
+    ],
+    "ipucu": "Serbest düşmede **v_{0} = 0** ve **a = g** alınır.",
+    "etiketler": [
+      "#tytfizik",
+      "#fizikformülleri"
+    ]
+  },
+  {
+    "id": "kim-asit-baz",
+    "sinav": "TYT",
+    "ders": "Kimya",
+    "ust": "KARŞILAŞTIRMA",
+    "baslik": "Asit mi, ==Baz mı?==",
+    "tip": "tablo",
+    "basliklar": [
+      "Asit",
+      "Baz"
+    ],
+    "stil": "karsilastirma",
+    "maddeler": [
+      [
+        "pH < 7",
+        "pH > 7"
+      ],
+      [
+        "Suda H^{+} iyonu verir",
+        "Suda OH^{−} iyonu verir"
+      ],
+      [
+        "Mavi turnusolü kırmızıya çevirir",
+        "Kırmızı turnusolü maviye çevirir"
+      ],
+      [
+        "Tadı ekşidir",
+        "Tadı acıdır, ele kayganlık verir"
+      ],
+      [
+        "HCl, H_{2}SO_{4}, HNO_{3}",
+        "NaOH, KOH, Ca(OH)_{2}"
+      ]
+    ],
+    "ipucu": "**Nötrleşme:** Asit + Baz → Tuz + Su",
+    "etiketler": [
+      "#tytkimya",
+      "#asitlervebazlar"
+    ]
+  },
+  {
+    "id": "bio-organeller",
+    "sinav": "TYT",
+    "ders": "Biyoloji",
+    "ust": "KISA NOT",
+    "baslik": "Organeller ve ==Görevleri==",
+    "tip": "tablo",
+    "basliklar": [
+      "Organel",
+      "Görevi"
+    ],
+    "maddeler": [
+      [
+        "Mitokondri",
+        "Oksijenli solunum, ATP üretimi"
+      ],
+      [
+        "Ribozom",
+        "Protein sentezi"
+      ],
+      [
+        "Kloroplast",
+        "Fotosentez (bitki)"
+      ],
+      [
+        "Golgi cisimciği",
+        "Paketleme ve salgılama"
+      ],
+      [
+        "Lizozom",
+        "Hücre içi sindirim"
+      ],
+      [
+        "Endoplazmik retikulum",
+        "Hücre içi madde taşıma"
+      ],
+      [
+        "Sentrozom",
+        "Hücre bölünmesi (hayvan)"
+      ]
+    ],
+    "ipucu": "Ribozom **zarsız** bir organeldir; prokaryot ve ökaryot hücrelerin **ortak** organelidir.",
+    "etiketler": [
+      "#tytbiyoloji",
+      "#organeller"
+    ]
+  },
+  {
+    "id": "tar-ilk-turk-devletleri",
+    "sinav": "TYT",
+    "ders": "Tarih",
+    "ust": "KISA NOT",
+    "baslik": "İlk Türk Devletleri ==Kısa Notlar==",
+    "tip": "liste",
+    "maddeler": [
+      "**Asya Hun:** Bilinen ilk Türk devleti. Mete Han orduda **onlu sistemi** kurdu.",
+      "**Göktürk:** “Türk” adını resmî olarak kullanan ilk devlet. **Orhun Yazıtları** bu döneme aittir.",
+      "**Uygur:** Yerleşik hayata geçen ilk Türk devleti. **Maniheizm**'i benimsedi.",
+      "**Avrupa Hun:** Kavimler Göçü'nün ardından kuruldu. En güçlü dönemi **Attila** zamanıdır."
+    ],
+    "ipucu": "Asya Hun = **ilk** Türk devleti. Göktürk = **“Türk” adını** ilk kullanan.",
+    "etiketler": [
+      "#tyttarih",
+      "#ilktürkdevletleri"
+    ]
+  },
+  {
+    "id": "tr-paragraf-taktikleri",
+    "sinav": "TYT",
+    "ders": "Türkçe",
+    "ust": "TAKTİK",
+    "baslik": "Paragrafta ==Net Artıran== 5 Taktik",
+    "tip": "liste",
+    "maddeler": [
+      "Önce **soru kökünü** oku: Senden ne isteniyor?",
+      "Olumsuz ifadelerin altını çiz: **değildir, çıkarılamaz.**",
+      "Ana düşünce çoğu zaman **ilk ya da son** cümlededir.",
+      "**Her zaman, asla, kesinlikle** gibi kesin ifadelere dikkat!",
+      "Metinde olmayan yorumu seçme, **sadece metne** dayan."
+    ],
+    "ipucu": "Her gün **20 paragraf** sorusu çöz, hızın kendiliğinden artar.",
+    "etiketler": [
+      "#tyttürkçe",
+      "#paragraf"
+    ]
+  }
+]

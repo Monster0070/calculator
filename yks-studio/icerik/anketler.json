@@ -1,0 +1,56 @@
+[
+  {
+    "id": "zor-ders",
+    "tip": "anket",
+    "sinav": "YKS",
+    "ust": "ANKET",
+    "soru": "Sence TYT'nin ==en zor== dersi hangisi?",
+    "secenekler": [
+      "Matematik",
+      "Fen",
+      "Türkçe",
+      "Sosyal"
+    ],
+    "not": "Çıkartmaya dokun, oyunu ver!"
+  },
+  {
+    "id": "hicbir-quiz",
+    "tip": "quiz",
+    "sinav": "TYT",
+    "ders": "Türkçe",
+    "ust": "QUIZ",
+    "soru": "“hiç bir” mi, ==“hiçbir”== mi? Hangisi doğru?",
+    "secenekler": [
+      "hiç bir",
+      "hiçbir"
+    ],
+    "dogru": 1,
+    "aciklama": "“Hiçbir” **bitişik** yazılır. Ama “bir şey” **ayrı** yazılır!",
+    "not": "Bil bakalım, sonra cevaba bak!"
+  },
+  {
+    "id": "calisma-saati",
+    "tip": "kaydirici",
+    "sinav": "YKS",
+    "ust": "SENİN SIRAN",
+    "soru": "Bugün kaç saat ==ders çalıştın?==",
+    "not": "Kaydırıcıyı çek, dürüst ol!"
+  },
+  {
+    "id": "uslu-quiz",
+    "tip": "quiz",
+    "sinav": "TYT",
+    "ders": "Matematik",
+    "ust": "QUIZ",
+    "soru": "2^{3} · 2^{4} işleminin ==sonucu== hangisi?",
+    "secenekler": [
+      "2^{7}",
+      "2^{12}",
+      "4^{7}",
+      "4^{12}"
+    ],
+    "dogru": 0,
+    "aciklama": "Tabanlar aynıysa üsler **toplanır:**\n2^{3} · 2^{4} = 2^{3+4} = **2^{7}**",
+    "not": "Kâğıt kalem yok, kafadan!"
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "id": "mat-uslu-sayilar",
+    "sinav": "TYT",
+    "ders": "Matematik",
+    "konu": "Üslü Sayılar",
+    "kanca": "Bu soruda çoğu kişi ==yanılıyor!==",
+    "soru": "2^{5} + 2^{5} işleminin sonucu **kaçtır?**",
+    "soruSes": "İki üssü beş, artı iki üssü beş işleminin sonucu kaçtır?",
+    "secenekler": [
+      "4^{5}",
+      "2^{10}",
+      "4^{10}",
+      "2^{6}",
+      "2^{25}"
+    ],
+    "dogru": "D",
+    "cevapSes": "Doğru cevap D: iki üssü altı!",
+    "aciklama": "2^{5} + 2^{5} = 2 · 2^{5} = **2^{6} = 64**",
+    "aciklamaSes": "İki tane iki üssü beş, iki üssü altı eder. Yani altmış dört!",
+    "etiketler": [
+      "#tytmatematik",
+      "#üslüsayılar"
+    ]
+  },
+  {
+    "id": "tr-yazim-kurallari",
+    "sinav": "TYT",
+    "ders": "Türkçe",
+    "konu": "Yazım Kuralları",
+    "kanca": "5 kelimeden sadece ==biri doğru!==",
+    "soru": "Aşağıdaki kelimelerden hangisinin yazımı **doğrudur?**",
+    "secenekler": [
+      "Herkez",
+      "Yanlız",
+      "Birkaç",
+      "Şöför",
+      "Eşortman"
+    ],
+    "dogru": "C",
+    "cevapSes": "Doğru cevap C: birkaç!",
+    "aciklama": "Doğruları: **herkes, yalnız, şoför, eşofman.** “Birkaç” ise bitişik yazılır.",
+    "aciklamaSes": "Diğerlerinin doğrusu: herkes, yalnız, şoför ve eşofman.",
+    "etiketler": [
+      "#tyttürkçe",
+      "#yazımkuralları"
+    ]
+  },
+  {
+    "id": "fiz-serbest-dusme",
+    "sinav": "TYT",
+    "ders": "Fizik",
+    "konu": "Serbest Düşme",
+    "kanca": "3 saniyede ==çözebilir misin?==",
+    "soru": "Serbest düşmeye bırakılan bir cisim **2 saniyede** kaç metre yol alır? (g = 10 m/s^{2})",
+    "soruSes": "Serbest düşmeye bırakılan bir cisim, iki saniyede kaç metre yol alır?",
+    "secenekler": [
+      "10 m",
+      "20 m",
+      "30 m",
+      "40 m",
+      "80 m"
+    ],
+    "dogru": "B",
+    "cevapSes": "Doğru cevap B: yirmi metre!",
+    "aciklama": "h = ½ · g · t^{2} = ½ · 10 · 2^{2} = **20 m**",
+    "aciklamaSes": "h eşittir yarım g t kare. Yarım çarpı on çarpı dört, yirmi metre.",
+    "etiketler": [
+      "#tytfizik",
+      "#serbestdüşme"
+    ]
+  },
+  {
+    "id": "bio-hucre",
+    "sinav": "TYT",
+    "ders": "Biyoloji",
+    "konu": "Hücre",
+    "kanca": "Biyolojinin ==klasik tuzağı!==",
+    "soru": "Aşağıdakilerden hangisi hem bitki hem de hayvan hücresinde **bulunur?**",
+    "secenekler": [
+      "Kloroplast",
+      "Hücre duvarı",
+      "Merkezi koful",
+      "Kromoplast",
+      "Mitokondri"
+    ],
+    "dogru": "E",
+    "cevapSes": "Doğru cevap E: mitokondri!",
+    "aciklama": "Mitokondri iki hücrede de bulunur ve **ATP** üretir. Diğerleri hayvan hücresinde **bulunmaz.**",
+    "aciklamaSes": "Mitokondri iki hücrede de bulunur. Diğerleri hayvan hücresinde yoktur.",
+    "etiketler": [
+      "#tytbiyoloji",
+      "#hücre"
+    ]
+  },
+  {
+    "id": "tar-gokturkler",
+    "sinav": "TYT",
+    "ders": "Tarih",
+    "konu": "İlk Türk Devletleri",
+    "kanca": "Bu ikisini sakın ==karıştırma!==",
+    "soru": "“Türk” adını resmî devlet adı olarak kullanan **ilk Türk devleti** hangisidir?",
+    "soruSes": "Türk adını resmî devlet adı olarak kullanan ilk Türk devleti hangisidir?",
+    "secenekler": [
+      "Göktürk Devleti",
+      "Asya Hun Devleti",
+      "Uygur Devleti",
+      "Karahanlı Devleti",
+      "Avrupa Hun Devleti"
+    ],
+    "dogru": "A",
+    "cevapSes": "Doğru cevap A: Göktürkler!",
+    "aciklama": "Bilinen **ilk Türk devleti** Asya Hun'dur. “Türk” adını ilk kullanan ise **Göktürkler.**",
+    "aciklamaSes": "Bilinen ilk Türk devleti Asya Hun'dur. Türk adını ilk kullanan ise Göktürkler.",
+    "etiketler": [
+      "#tyttarih",
+      "#göktürkler"
+    ]
+  },
+  {
+    "id": "cog-yagis",
+    "sinav": "TYT",
+    "ders": "Coğrafya",
+    "konu": "İklim",
+    "kanca": "Haritaya bakmadan ==tahmin et!==",
+    "soru": "Türkiye'de yıllık ortalama yağış miktarı **en fazla** olan il hangisidir?",
+    "secenekler": [
+      "Trabzon",
+      "Artvin",
+      "Giresun",
+      "Rize",
+      "Ordu"
+    ],
+    "dogru": "D",
+    "cevapSes": "Doğru cevap D: Rize!",
+    "aciklama": "Dağlar kıyıya paralel uzanır; nemli hava yamaçta yükselip bol **orografik yağış** bırakır.",
+    "aciklamaSes": "Dağlar kıyıya paralel uzanır. Nemli hava yükselip bol yağış bırakır.",
+    "etiketler": [
+      "#tytcoğrafya",
+      "#iklim"
+    ]
+  },
+  {
+    "id": "kim-fiziksel-degisim",
+    "sinav": "TYT",
+    "ders": "Kimya",
+    "konu": "Fiziksel ve Kimyasal Değişim",
+    "kanca": "Fiziksel mi, ==kimyasal mı?==",
+    "soru": "Aşağıdakilerden hangisi **fiziksel** bir değişimdir?",
+    "secenekler": [
+      "Demirin paslanması",
+      "Kâğıdın yanması",
+      "Buzun erimesi",
+      "Sütün ekşimesi",
+      "Yumurtanın pişmesi"
+    ],
+    "dogru": "C",
+    "cevapSes": "Doğru cevap C: buzun erimesi!",
+    "aciklama": "Hâl değişiminde maddenin **kimliği değişmez.** Diğerlerinde yeni madde oluşur, yani **kimyasal** değişimdir.",
+    "aciklamaSes": "Erimede maddenin kimliği değişmez. Diğerlerinde yeni madde oluşur.",
+    "etiketler": [
+      "#tytkimya",
+      "#kimya"
+    ]
+  }
+]

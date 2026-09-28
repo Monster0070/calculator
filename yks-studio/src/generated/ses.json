@@ -1,0 +1,162 @@
+{
+  "ortak/uc": {
+    "dosya": "ses/ortak/uc.mp3",
+    "sure": 0.465,
+    "hash": "3dc8b860952b"
+  },
+  "ortak/iki": {
+    "dosya": "ses/ortak/iki.mp3",
+    "sure": 0.473,
+    "hash": "961a12ce24c4"
+  },
+  "ortak/bir": {
+    "dosya": "ses/ortak/bir.mp3",
+    "sure": 0.484,
+    "hash": "c232bc7f51ab"
+  },
+  "ortak/kapanis": {
+    "dosya": "ses/ortak/kapanis.mp3",
+    "sure": 4.107,
+    "hash": "ae70f08a5def"
+  },
+  "mat-uslu-sayilar/kanca": {
+    "dosya": "ses/mat-uslu-sayilar/kanca.mp3",
+    "sure": 2.155,
+    "hash": "d9450fc0718b"
+  },
+  "mat-uslu-sayilar/soru": {
+    "dosya": "ses/mat-uslu-sayilar/soru.mp3",
+    "sure": 4.62,
+    "hash": "37118c3320b7"
+  },
+  "mat-uslu-sayilar/cevap": {
+    "dosya": "ses/mat-uslu-sayilar/cevap.mp3",
+    "sure": 2.925,
+    "hash": "8bb297748e71"
+  },
+  "mat-uslu-sayilar/aciklama": {
+    "dosya": "ses/mat-uslu-sayilar/aciklama.mp3",
+    "sure": 5.569,
+    "hash": "c9af3a5e97ce"
+  },
+  "tr-yazim-kurallari/kanca": {
+    "dosya": "ses/tr-yazim-kurallari/kanca.mp3",
+    "sure": 2.62,
+    "hash": "05d192e3adee"
+  },
+  "tr-yazim-kurallari/soru": {
+    "dosya": "ses/tr-yazim-kurallari/soru.mp3",
+    "sure": 3.465,
+    "hash": "8d413d5e32df"
+  },
+  "tr-yazim-kurallari/cevap": {
+    "dosya": "ses/tr-yazim-kurallari/cevap.mp3",
+    "sure": 2.275,
+    "hash": "dec9c5ff624f"
+  },
+  "tr-yazim-kurallari/aciklama": {
+    "dosya": "ses/tr-yazim-kurallari/aciklama.mp3",
+    "sure": 4.936,
+    "hash": "441ce319a40f"
+  },
+  "fiz-serbest-dusme/kanca": {
+    "dosya": "ses/fiz-serbest-dusme/kanca.mp3",
+    "sure": 2.133,
+    "hash": "7f9a99a9aa64"
+  },
+  "fiz-serbest-dusme/soru": {
+    "dosya": "ses/fiz-serbest-dusme/soru.mp3",
+    "sure": 5.016,
+    "hash": "fa8390eca1ed"
+  },
+  "fiz-serbest-dusme/cevap": {
+    "dosya": "ses/fiz-serbest-dusme/cevap.mp3",
+    "sure": 2.445,
+    "hash": "2d3f8ad6f533"
+  },
+  "fiz-serbest-dusme/aciklama": {
+    "dosya": "ses/fiz-serbest-dusme/aciklama.mp3",
+    "sure": 6.053,
+    "hash": "29728fdcd8fb"
+  },
+  "bio-hucre/kanca": {
+    "dosya": "ses/bio-hucre/kanca.mp3",
+    "sure": 2.02,
+    "hash": "f5868fe70612"
+  },
+  "bio-hucre/soru": {
+    "dosya": "ses/bio-hucre/soru.mp3",
+    "sure": 4.658,
+    "hash": "1214f743d9a4"
+  },
+  "bio-hucre/cevap": {
+    "dosya": "ses/bio-hucre/cevap.mp3",
+    "sure": 2.458,
+    "hash": "9cc765c44804"
+  },
+  "bio-hucre/aciklama": {
+    "dosya": "ses/bio-hucre/aciklama.mp3",
+    "sure": 5.56,
+    "hash": "90b59d317131"
+  },
+  "tar-gokturkler/kanca": {
+    "dosya": "ses/tar-gokturkler/kanca.mp3",
+    "sure": 2.164,
+    "hash": "449521a62004"
+  },
+  "tar-gokturkler/soru": {
+    "dosya": "ses/tar-gokturkler/soru.mp3",
+    "sure": 4.911,
+    "hash": "67687392e1d9"
+  },
+  "tar-gokturkler/cevap": {
+    "dosya": "ses/tar-gokturkler/cevap.mp3",
+    "sure": 2.382,
+    "hash": "9b85ded62de1"
+  },
+  "tar-gokturkler/aciklama": {
+    "dosya": "ses/tar-gokturkler/aciklama.mp3",
+    "sure": 6.347,
+    "hash": "2e1069368190"
+  },
+  "cog-yagis/kanca": {
+    "dosya": "ses/cog-yagis/kanca.mp3",
+    "sure": 1.964,
+    "hash": "9f99e30b8440"
+  },
+  "cog-yagis/soru": {
+    "dosya": "ses/cog-yagis/soru.mp3",
+    "sure": 4.775,
+    "hash": "5206b0528f4c"
+  },
+  "cog-yagis/cevap": {
+    "dosya": "ses/cog-yagis/cevap.mp3",
+    "sure": 1.991,
+    "hash": "de9ee12e1e7f"
+  },
+  "cog-yagis/aciklama": {
+    "dosya": "ses/cog-yagis/aciklama.mp3",
+    "sure": 5.156,
+    "hash": "8c984a139bf2"
+  },
+  "kim-fiziksel-degisim/kanca": {
+    "dosya": "ses/kim-fiziksel-degisim/kanca.mp3",
+    "sure": 2.205,
+    "hash": "53e611a5e1b7"
+  },
+  "kim-fiziksel-degisim/soru": {
+    "dosya": "ses/kim-fiziksel-degisim/soru.mp3",
+    "sure": 3.529,
+    "hash": "1e802d221933"
+  },
+  "kim-fiziksel-degisim/cevap": {
+    "dosya": "ses/kim-fiziksel-degisim/cevap.mp3",
+    "sure": 2.711,
+    "hash": "87b2497774bc"
+  },
+  "kim-fiziksel-degisim/aciklama": {
+    "dosya": "ses/kim-fiziksel-degisim/aciklama.mp3",
+    "sure": 5.136,
+    "hash": "aaed18f26cef"
+  }
+}
