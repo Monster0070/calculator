@@ -1,0 +1,6 @@
+HİKÂYE PAYLAŞIM NOTU
+1) calisma-saati.png görselini hikâyene ekle.
+2) Çıkartmalar → "Emoji kaydırıcı" çıkartmasını seç.
+3) Çıkartma sorusu: Bugün kaç saat ders çalıştın?
+4) Kaydırıcı emojisi: 📚 ya da 🔥
+5) Çıkartmayı okun gösterdiği boş alana yerleştir.

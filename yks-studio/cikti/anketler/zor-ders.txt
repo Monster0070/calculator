@@ -1,0 +1,6 @@
+HİKÂYE PAYLAŞIM NOTU
+1) zor-ders.png görselini hikâyene ekle.
+2) Çıkartmalar → "Anket" çıkartmasını seç.
+3) Çıkartma sorusu: Sence TYT'nin en zor dersi hangisi?
+4) Seçenekler: Matematik / Fen / Türkçe / Sosyal
+5) Çıkartmayı okun gösterdiği boş alana yerleştir.

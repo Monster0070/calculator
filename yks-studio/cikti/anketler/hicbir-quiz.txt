@@ -1,0 +1,8 @@
+HİKÂYE PAYLAŞIM NOTU
+1) hicbir-quiz.png görselini hikâyene ekle.
+2) Çıkartmalar → "Test (quiz)" çıkartmasını seç.
+3) Çıkartma sorusu: “hiç bir” mi, “hiçbir” mi? Hangisi doğru?
+4) Seçenekler: hiç bir / hiçbir
+5) Çıkartmayı okun gösterdiği boş alana yerleştir.
+6) Doğru cevabı işaretle: hiçbir
+7) Ertesi gün hicbir-quiz-cevap.png görselini paylaş.

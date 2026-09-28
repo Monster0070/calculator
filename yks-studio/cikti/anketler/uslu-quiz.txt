@@ -1,0 +1,8 @@
+HİKÂYE PAYLAŞIM NOTU
+1) uslu-quiz.png görselini hikâyene ekle.
+2) Çıkartmalar → "Test (quiz)" çıkartmasını seç.
+3) Çıkartma sorusu: 2³ · 2⁴ işleminin sonucu hangisi?
+4) Seçenekler: 2⁷ / 2¹² / 4⁷ / 4¹²
+5) Çıkartmayı okun gösterdiği boş alana yerleştir.
+6) Doğru cevabı işaretle: 2⁷
+7) Ertesi gün uslu-quiz-cevap.png görselini paylaş.
