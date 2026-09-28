@@ -1,10 +1,11 @@
 import React from 'react';
 import { AbsoluteFill } from 'remotion';
 import { Arkaplan } from '../components/Arkaplan';
-import { Rozet, UstBar } from '../components/Marka';
-import { HARFLER, reelsBul } from '../icerik';
+import { UstBar } from '../components/Marka';
+import { DersLogosu, dersBul } from '../dersler';
+import { HARFLER, reelsBul, trBuyuk } from '../icerik';
 import { ZenginMetin } from '../lib/zengin-metin';
-import { EL_YAZISI, FONT, PaletSaglayici, usePalet } from '../tema';
+import { EL_YAZISI, FONT, PaletSaglayici, saydam, usePalet } from '../tema';
 import type { ReelsIcerik } from '../tipler';
 import type { ReelsProps } from './SoruReels';
 
@@ -17,10 +18,11 @@ export const ReelsKapak: React.FC<ReelsProps> = ({ id, palet }) => (
 
 const KapakIcerik: React.FC<{ r: ReelsIcerik }> = ({ r }) => {
   const p = usePalet();
+  const d = dersBul(r.ders);
   return (
     <AbsoluteFill style={{ fontFamily: FONT, color: p.metin }}>
-      <Arkaplan genislik={1080} yukseklik={1920} tohum={r.id} hareket={false} />
-      <UstBar rozet={`${r.sinav} · ${r.ders}`} />
+      <Arkaplan genislik={1080} yukseklik={1920} tohum={r.id} hareket={false} parilti={d?.renk} />
+      <UstBar rozet={`${r.sinav} · ${r.ders}`} ders={r.ders} />
       <div
         style={{
           position: 'absolute',
@@ -32,14 +34,39 @@ const KapakIcerik: React.FC<{ r: ReelsIcerik }> = ({ r }) => {
           flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
-          gap: 52,
+          gap: 48,
           textAlign: 'center',
         }}
       >
-        {r.konu && <Rozet metin={r.konu} boyut={34} renk={p.yuzey} yaziRenk={p.metin} />}
-        <div style={{ fontSize: 108, fontWeight: 900, lineHeight: 1.1, letterSpacing: '-0.01em' }}>
-          <ZenginMetin metin={r.kanca ?? r.konu ?? r.ders} />
+        <div style={{ display: 'flex', alignItems: 'center', gap: 30 }}>
+          <DersLogosu ders={r.ders} boyut={150} />
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 8 }}>
+            <span style={{ fontSize: 40, fontWeight: 900, letterSpacing: '0.12em', padding: '6px 18px 2px', border: `5px solid ${p.metin}`, borderRadius: 16 }}>
+              {r.sinav}
+            </span>
+            <span style={{ fontSize: 88, fontWeight: 900, lineHeight: 1, color: d?.renk ?? p.vurgu }}>{trBuyuk(r.ders)}</span>
+          </div>
         </div>
+        {r.osym ? (
+          <div
+            style={{
+              transform: 'rotate(-6deg)',
+              border: `12px double ${p.vurgu}`,
+              borderRadius: 22,
+              background: saydam(p.vurgu, 0.07),
+              padding: '16px 44px 12px',
+            }}
+          >
+            <div style={{ fontSize: 100, fontWeight: 900, lineHeight: 1.05, color: p.vurgu }}>ÖSYM SORDU</div>
+            <div style={{ fontSize: 34, fontWeight: 800, letterSpacing: '0.14em', marginTop: 4 }}>
+              {r.osym.yil} · {r.sinav} · {r.osym.soruNo}. SORU
+            </div>
+          </div>
+        ) : (
+          <div style={{ fontSize: 100, fontWeight: 900, lineHeight: 1.1, letterSpacing: '-0.01em' }}>
+            <ZenginMetin metin={r.kanca ?? r.konu ?? r.ders} />
+          </div>
+        )}
         <div
           style={{
             position: 'relative',
@@ -69,9 +96,19 @@ const KapakIcerik: React.FC<{ r: ReelsIcerik }> = ({ r }) => {
               lineHeight: 1,
             }}
           >
-            SORU
+            {r.osym ? `ÖSYM ${r.osym.yil}` : 'SORU'}
           </div>
-          <div style={{ fontSize: 48, fontWeight: 700, lineHeight: 1.3 }}>
+          <div
+            style={{
+              fontSize: 44,
+              fontWeight: 700,
+              lineHeight: r.soru.includes('[[') ? 1.85 : 1.3,
+              display: '-webkit-box',
+              WebkitLineClamp: 4,
+              WebkitBoxOrient: 'vertical',
+              overflow: 'hidden',
+            }}
+          >
             <ZenginMetin metin={r.soru} />
           </div>
           <div style={{ display: 'flex', gap: 16, marginTop: 30 }}>

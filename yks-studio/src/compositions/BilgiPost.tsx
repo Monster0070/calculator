@@ -3,6 +3,7 @@ import React from 'react';
 import { AbsoluteFill } from 'remotion';
 import { Arkaplan } from '../components/Arkaplan';
 import { HesapEtiketi, Rozet } from '../components/Marka';
+import { dersBul } from '../dersler';
 import { gonderiBul, hesap, trBuyuk } from '../icerik';
 import { ZenginMetin } from '../lib/zengin-metin';
 import { FONT, PaletSaglayici, saydam, usePalet } from '../tema';
@@ -26,11 +27,11 @@ const GonderiIcerigi: React.FC<{ g: GonderiIcerik }> = ({ g }) => {
   const p = usePalet();
   return (
     <AbsoluteFill style={{ fontFamily: FONT, color: p.metin }}>
-      <Arkaplan genislik={1080} yukseklik={1350} tohum={g.id} hareket={false} sembolSayisi={9} />
+      <Arkaplan genislik={1080} yukseklik={1350} tohum={g.id} hareket={false} sembolSayisi={9} parilti={dersBul(g.ders)?.renk} />
       <div style={{ position: 'absolute', top: 60, bottom: 54, left: 64, right: 64, display: 'flex', flexDirection: 'column' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <HesapEtiketi logo={56} yazi={30} />
-          <Rozet metin={[g.sinav, g.ders].filter(Boolean).join(' · ')} />
+          <Rozet metin={[g.sinav, g.ders].filter(Boolean).join(' · ')} ders={g.ders} />
         </div>
         <div style={{ marginTop: 40 }}>
           {g.ust && (

@@ -22,6 +22,14 @@ Google TTS durations in `src/generated/ses.json` still drive the pacing. If the 
 `public/ses/<id>/<kanca|soru|cevap|aciklama>.mp3`, write their real durations into `ses.json` (and keep `ses.mjs` from
 overwriting them), set `seslendirme: true`, and re-render so the karaoke highlight follows their voice.
 
+## ÖSYM series
+
+The user supplies ÖSYM booklet PDFs (TYT 2024/2025/2026 so far; the answer key is on the last page). Extract text with
+PyMuPDF (`pip install pymupdf`), pick questions without figures that fit a reel, and take the answer **from the official key**
+(solve it yourself too; if they disagree, the key wins and you re-check your reasoning). View the page image for anything with
+formulas, underlines or numbering (`[[söz|IV]]` markup). Reel items get `"osym": {"yil", "test", "soruNo"}` and the source line
+must stay in the video and caption. Subject colors/icons live in `src/dersler.tsx`; the opening card shows e.g. "TYT KİMYA".
+
 ## Workflow for new content
 
 1. Add items to `icerik/*.json` (ids: `[a-z0-9-]`). For math, write explicit `soruSes`/`aciklamaSes` (spoken Turkish).

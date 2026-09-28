@@ -9,13 +9,13 @@ import { SoruReels } from './SoruReels';
 export const ReelsOnizleme: React.FC<{ id: string; palet?: string }> = ({ id, palet }) => {
   const z = reelsZamanla(reelsBul(id));
   const kareler: Array<[string, number]> = [
-    ['Kanca', z.kanca ? z.kanca.bas + Math.round(z.kanca.sure * 0.9) : 20],
+    ['Başlık', Math.round(z.baslikSon * 0.7)],
+    ['Kanca', z.kanca ? z.kanca.bas + Math.round(z.kanca.sure * 0.9) : z.baslikSon + 20],
     ['Soru', z.soru.bas + Math.round(z.soru.sure * 0.5)],
     ['Seçenekler', z.sayacBas - 3],
     ['Sayaç', z.sayacBas + 36],
     ['Cevap', z.cevapBas + 14],
     ['Çözüm', z.aciklama ? z.aciklama.bas + Math.round(z.aciklama.sure * 0.85) : z.cevapBas + 40],
-    ['Kapanış', z.kapanisBas + 8],
     ['Kapanış', z.kapanisBas + 50],
   ];
   return (

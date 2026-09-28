@@ -17,6 +17,8 @@ export type ReelsIcerik = {
   sinav: string;
   ders: string;
   konu?: string;
+  // ÖSYM'nin sorduğu soru ise kaynağı (girişte "ÖSYM SORDU" damgası çıkar)
+  osym?: { yil: number; test: string; soruNo: number };
   kanca?: string;
   kancaSes?: string;
   soru: string;

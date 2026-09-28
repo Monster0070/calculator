@@ -17,10 +17,13 @@ const parca = (anahtar: string, metin: string | undefined, bas: number): SesParc
 
 export const GERI_SAYIM = 3;
 
-// Soru reels'inin zaman çizelgesi: kanca → soru → seçenekler → 3-2-1 → cevap → açıklama → kapanış
+// Soru reels'inin zaman çizelgesi: başlık → kanca/ÖSYM damgası → soru → seçenekler → 3-2-1 → cevap → açıklama → kapanış
 export const reelsZamanla = (r: ReelsIcerik) => {
-  const kanca = parca(`${r.id}/kanca`, r.kancaSes ?? r.kanca, sn(0.35));
-  const girisSon = Math.max(sn(1.8), kanca ? kanca.bas + kanca.sure + sn(0.3) : 0);
+  // Açılış: "TYT Kimya" başlığı, ardından kanca cümlesi ya da ÖSYM damgası
+  const baslik = parca(`${r.id}/baslik`, `${r.sinav} ${r.ders}`, sn(0.3))!;
+  const baslikSon = Math.max(sn(1.6), baslik.bas + baslik.sure + sn(0.15));
+  const kanca = parca(`${r.id}/kanca`, r.kancaSes ?? r.kanca, baslikSon + sn(0.25));
+  const girisSon = Math.max(baslikSon + sn(1.5), kanca ? kanca.bas + kanca.sure + sn(0.3) : 0);
 
   const soruBas = girisSon;
   const soru = parca(`${r.id}/soru`, r.soruSes ?? r.soru, soruBas + sn(0.5))!;
@@ -42,9 +45,11 @@ export const reelsZamanla = (r: ReelsIcerik) => {
     : parca('ortak/kapanis', hesap.kapanisSes, kapanisBas + sn(0.45))!;
 
   const toplam = Math.max(kapanis.bas + kapanis.sure + sn(0.9), kapanisBas + sn(3.2));
-  const konusmalar = [kanca, soru, cevap, aciklama, kapanis].filter((x): x is SesParca => x !== null);
+  const konusmalar = [baslik, kanca, soru, cevap, aciklama, kapanis].filter((x): x is SesParca => x !== null);
 
   return {
+    baslik,
+    baslikSon,
     kanca,
     girisSon,
     soruBas,

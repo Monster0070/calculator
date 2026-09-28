@@ -19,6 +19,11 @@
     "sure": 4.107,
     "hash": "ae70f08a5def"
   },
+  "mat-uslu-sayilar/baslik": {
+    "dosya": "ses/mat-uslu-sayilar/baslik.mp3",
+    "sure": 1.696,
+    "hash": "b35d889cc2cc"
+  },
   "mat-uslu-sayilar/kanca": {
     "dosya": "ses/mat-uslu-sayilar/kanca.mp3",
     "sure": 2.155,
@@ -38,6 +43,11 @@
     "dosya": "ses/mat-uslu-sayilar/aciklama.mp3",
     "sure": 5.569,
     "hash": "c9af3a5e97ce"
+  },
+  "tr-yazim-kurallari/baslik": {
+    "dosya": "ses/tr-yazim-kurallari/baslik.mp3",
+    "sure": 1.731,
+    "hash": "db82e4418dc2"
   },
   "tr-yazim-kurallari/kanca": {
     "dosya": "ses/tr-yazim-kurallari/kanca.mp3",
@@ -59,6 +69,11 @@
     "sure": 4.936,
     "hash": "441ce319a40f"
   },
+  "fiz-serbest-dusme/baslik": {
+    "dosya": "ses/fiz-serbest-dusme/baslik.mp3",
+    "sure": 1.453,
+    "hash": "21eb8ff1a416"
+  },
   "fiz-serbest-dusme/kanca": {
     "dosya": "ses/fiz-serbest-dusme/kanca.mp3",
     "sure": 2.133,
@@ -78,6 +93,11 @@
     "dosya": "ses/fiz-serbest-dusme/aciklama.mp3",
     "sure": 6.053,
     "hash": "29728fdcd8fb"
+  },
+  "bio-hucre/baslik": {
+    "dosya": "ses/bio-hucre/baslik.mp3",
+    "sure": 1.749,
+    "hash": "4ed9ccd4fbde"
   },
   "bio-hucre/kanca": {
     "dosya": "ses/bio-hucre/kanca.mp3",
@@ -99,6 +119,11 @@
     "sure": 5.56,
     "hash": "90b59d317131"
   },
+  "tar-gokturkler/baslik": {
+    "dosya": "ses/tar-gokturkler/baslik.mp3",
+    "sure": 1.462,
+    "hash": "2fc349a094de"
+  },
   "tar-gokturkler/kanca": {
     "dosya": "ses/tar-gokturkler/kanca.mp3",
     "sure": 2.164,
@@ -118,6 +143,11 @@
     "dosya": "ses/tar-gokturkler/aciklama.mp3",
     "sure": 6.347,
     "hash": "2e1069368190"
+  },
+  "cog-yagis/baslik": {
+    "dosya": "ses/cog-yagis/baslik.mp3",
+    "sure": 1.771,
+    "hash": "95f787a260e2"
   },
   "cog-yagis/kanca": {
     "dosya": "ses/cog-yagis/kanca.mp3",
@@ -139,6 +169,11 @@
     "sure": 5.156,
     "hash": "8c984a139bf2"
   },
+  "kim-fiziksel-degisim/baslik": {
+    "dosya": "ses/kim-fiziksel-degisim/baslik.mp3",
+    "sure": 1.469,
+    "hash": "858e827f15b2"
+  },
   "kim-fiziksel-degisim/kanca": {
     "dosya": "ses/kim-fiziksel-degisim/kanca.mp3",
     "sure": 2.205,
@@ -158,5 +193,305 @@
     "dosya": "ses/kim-fiziksel-degisim/aciklama.mp3",
     "sure": 5.136,
     "hash": "aaed18f26cef"
+  },
+  "osym-2026-mat-40/baslik": {
+    "dosya": "ses/osym-2026-mat-40/baslik.mp3",
+    "sure": 1.696,
+    "hash": "b35d889cc2cc"
+  },
+  "osym-2026-mat-40/kanca": {
+    "dosya": "ses/osym-2026-mat-40/kanca.mp3",
+    "sure": 3.453,
+    "hash": "d7887cddef36"
+  },
+  "osym-2026-mat-40/soru": {
+    "dosya": "ses/osym-2026-mat-40/soru.mp3",
+    "sure": 13.249,
+    "hash": "fb548edf49a8"
+  },
+  "osym-2026-mat-40/cevap": {
+    "dosya": "ses/osym-2026-mat-40/cevap.mp3",
+    "sure": 2.305,
+    "hash": "458486b02982"
+  },
+  "osym-2026-mat-40/aciklama": {
+    "dosya": "ses/osym-2026-mat-40/aciklama.mp3",
+    "sure": 12.867,
+    "hash": "85debbefcc85"
+  },
+  "osym-2025-mat-12/baslik": {
+    "dosya": "ses/osym-2025-mat-12/baslik.mp3",
+    "sure": 1.696,
+    "hash": "b35d889cc2cc"
+  },
+  "osym-2025-mat-12/kanca": {
+    "dosya": "ses/osym-2025-mat-12/kanca.mp3",
+    "sure": 3.422,
+    "hash": "9a57341c77d9"
+  },
+  "osym-2025-mat-12/soru": {
+    "dosya": "ses/osym-2025-mat-12/soru.mp3",
+    "sure": 16.933,
+    "hash": "842b67387a63"
+  },
+  "osym-2025-mat-12/cevap": {
+    "dosya": "ses/osym-2025-mat-12/cevap.mp3",
+    "sure": 2.691,
+    "hash": "5eaeff76c296"
+  },
+  "osym-2025-mat-12/aciklama": {
+    "dosya": "ses/osym-2025-mat-12/aciklama.mp3",
+    "sure": 16.353,
+    "hash": "546a5e4e3762"
+  },
+  "osym-2025-mat-32/baslik": {
+    "dosya": "ses/osym-2025-mat-32/baslik.mp3",
+    "sure": 1.696,
+    "hash": "b35d889cc2cc"
+  },
+  "osym-2025-mat-32/kanca": {
+    "dosya": "ses/osym-2025-mat-32/kanca.mp3",
+    "sure": 3.422,
+    "hash": "9a57341c77d9"
+  },
+  "osym-2025-mat-32/soru": {
+    "dosya": "ses/osym-2025-mat-32/soru.mp3",
+    "sure": 16.113,
+    "hash": "b826c6b01c9b"
+  },
+  "osym-2025-mat-32/cevap": {
+    "dosya": "ses/osym-2025-mat-32/cevap.mp3",
+    "sure": 2.073,
+    "hash": "20a18f688621"
+  },
+  "osym-2025-mat-32/aciklama": {
+    "dosya": "ses/osym-2025-mat-32/aciklama.mp3",
+    "sure": 13.98,
+    "hash": "8bcea845bec1"
+  },
+  "osym-2025-fiz-2/baslik": {
+    "dosya": "ses/osym-2025-fiz-2/baslik.mp3",
+    "sure": 1.453,
+    "hash": "21eb8ff1a416"
+  },
+  "osym-2025-fiz-2/kanca": {
+    "dosya": "ses/osym-2025-fiz-2/kanca.mp3",
+    "sure": 3.422,
+    "hash": "9a57341c77d9"
+  },
+  "osym-2025-fiz-2/soru": {
+    "dosya": "ses/osym-2025-fiz-2/soru.mp3",
+    "sure": 27.622,
+    "hash": "f27c14f00b37"
+  },
+  "osym-2025-fiz-2/cevap": {
+    "dosya": "ses/osym-2025-fiz-2/cevap.mp3",
+    "sure": 2.091,
+    "hash": "a3dc60fce03d"
+  },
+  "osym-2025-fiz-2/aciklama": {
+    "dosya": "ses/osym-2025-fiz-2/aciklama.mp3",
+    "sure": 13.095,
+    "hash": "20b4c1f996bf"
+  },
+  "osym-2026-fiz-7/baslik": {
+    "dosya": "ses/osym-2026-fiz-7/baslik.mp3",
+    "sure": 1.453,
+    "hash": "21eb8ff1a416"
+  },
+  "osym-2026-fiz-7/kanca": {
+    "dosya": "ses/osym-2026-fiz-7/kanca.mp3",
+    "sure": 3.453,
+    "hash": "d7887cddef36"
+  },
+  "osym-2026-fiz-7/soru": {
+    "dosya": "ses/osym-2026-fiz-7/soru.mp3",
+    "sure": 20.335,
+    "hash": "93c004affa02"
+  },
+  "osym-2026-fiz-7/cevap": {
+    "dosya": "ses/osym-2026-fiz-7/cevap.mp3",
+    "sure": 2.469,
+    "hash": "585d3eba10e2"
+  },
+  "osym-2026-fiz-7/aciklama": {
+    "dosya": "ses/osym-2026-fiz-7/aciklama.mp3",
+    "sure": 9.769,
+    "hash": "ad75a34211fa"
+  },
+  "osym-2024-kim-13/baslik": {
+    "dosya": "ses/osym-2024-kim-13/baslik.mp3",
+    "sure": 1.469,
+    "hash": "858e827f15b2"
+  },
+  "osym-2024-kim-13/kanca": {
+    "dosya": "ses/osym-2024-kim-13/kanca.mp3",
+    "sure": 3.487,
+    "hash": "9b5b9f80a0a9"
+  },
+  "osym-2024-kim-13/soru": {
+    "dosya": "ses/osym-2024-kim-13/soru.mp3",
+    "sure": 23.073,
+    "hash": "b64cfe3bedfb"
+  },
+  "osym-2024-kim-13/cevap": {
+    "dosya": "ses/osym-2024-kim-13/cevap.mp3",
+    "sure": 2.705,
+    "hash": "403f3bd706e0"
+  },
+  "osym-2024-kim-13/aciklama": {
+    "dosya": "ses/osym-2024-kim-13/aciklama.mp3",
+    "sure": 7.884,
+    "hash": "ba89a0f82636"
+  },
+  "osym-2024-kim-9/baslik": {
+    "dosya": "ses/osym-2024-kim-9/baslik.mp3",
+    "sure": 1.469,
+    "hash": "858e827f15b2"
+  },
+  "osym-2024-kim-9/kanca": {
+    "dosya": "ses/osym-2024-kim-9/kanca.mp3",
+    "sure": 3.487,
+    "hash": "9b5b9f80a0a9"
+  },
+  "osym-2024-kim-9/soru": {
+    "dosya": "ses/osym-2024-kim-9/soru.mp3",
+    "sure": 17.316,
+    "hash": "ddf59ba8eff2"
+  },
+  "osym-2024-kim-9/cevap": {
+    "dosya": "ses/osym-2024-kim-9/cevap.mp3",
+    "sure": 2.422,
+    "hash": "09b4676eb911"
+  },
+  "osym-2024-kim-9/aciklama": {
+    "dosya": "ses/osym-2024-kim-9/aciklama.mp3",
+    "sure": 10.336,
+    "hash": "dc4975474920"
+  },
+  "osym-2026-bio-17/baslik": {
+    "dosya": "ses/osym-2026-bio-17/baslik.mp3",
+    "sure": 1.749,
+    "hash": "4ed9ccd4fbde"
+  },
+  "osym-2026-bio-17/kanca": {
+    "dosya": "ses/osym-2026-bio-17/kanca.mp3",
+    "sure": 3.453,
+    "hash": "d7887cddef36"
+  },
+  "osym-2026-bio-17/soru": {
+    "dosya": "ses/osym-2026-bio-17/soru.mp3",
+    "sure": 6.329,
+    "hash": "e64c03db62fd"
+  },
+  "osym-2026-bio-17/cevap": {
+    "dosya": "ses/osym-2026-bio-17/cevap.mp3",
+    "sure": 2.458,
+    "hash": "9cc765c44804"
+  },
+  "osym-2026-bio-17/aciklama": {
+    "dosya": "ses/osym-2026-bio-17/aciklama.mp3",
+    "sure": 9.749,
+    "hash": "f9770e4d26c9"
+  },
+  "osym-2024-bio-16/baslik": {
+    "dosya": "ses/osym-2024-bio-16/baslik.mp3",
+    "sure": 1.749,
+    "hash": "4ed9ccd4fbde"
+  },
+  "osym-2024-bio-16/kanca": {
+    "dosya": "ses/osym-2024-bio-16/kanca.mp3",
+    "sure": 3.487,
+    "hash": "9b5b9f80a0a9"
+  },
+  "osym-2024-bio-16/soru": {
+    "dosya": "ses/osym-2024-bio-16/soru.mp3",
+    "sure": 4.402,
+    "hash": "a26f05d063d5"
+  },
+  "osym-2024-bio-16/cevap": {
+    "dosya": "ses/osym-2024-bio-16/cevap.mp3",
+    "sure": 2.509,
+    "hash": "a1f7155dc99d"
+  },
+  "osym-2024-bio-16/aciklama": {
+    "dosya": "ses/osym-2024-bio-16/aciklama.mp3",
+    "sure": 8.049,
+    "hash": "4174bc35f00d"
+  },
+  "osym-2026-cog-9/baslik": {
+    "dosya": "ses/osym-2026-cog-9/baslik.mp3",
+    "sure": 1.771,
+    "hash": "95f787a260e2"
+  },
+  "osym-2026-cog-9/kanca": {
+    "dosya": "ses/osym-2026-cog-9/kanca.mp3",
+    "sure": 3.453,
+    "hash": "d7887cddef36"
+  },
+  "osym-2026-cog-9/soru": {
+    "dosya": "ses/osym-2026-cog-9/soru.mp3",
+    "sure": 14.127,
+    "hash": "7e84320710db"
+  },
+  "osym-2026-cog-9/cevap": {
+    "dosya": "ses/osym-2026-cog-9/cevap.mp3",
+    "sure": 2.798,
+    "hash": "7e7e74770874"
+  },
+  "osym-2026-cog-9/aciklama": {
+    "dosya": "ses/osym-2026-cog-9/aciklama.mp3",
+    "sure": 9.847,
+    "hash": "b91a6cf24761"
+  },
+  "osym-2024-tar-2/baslik": {
+    "dosya": "ses/osym-2024-tar-2/baslik.mp3",
+    "sure": 1.462,
+    "hash": "2fc349a094de"
+  },
+  "osym-2024-tar-2/kanca": {
+    "dosya": "ses/osym-2024-tar-2/kanca.mp3",
+    "sure": 3.487,
+    "hash": "9b5b9f80a0a9"
+  },
+  "osym-2024-tar-2/soru": {
+    "dosya": "ses/osym-2024-tar-2/soru.mp3",
+    "sure": 15.313,
+    "hash": "16276b9693b9"
+  },
+  "osym-2024-tar-2/cevap": {
+    "dosya": "ses/osym-2024-tar-2/cevap.mp3",
+    "sure": 2.6,
+    "hash": "b0c13acb9db1"
+  },
+  "osym-2024-tar-2/aciklama": {
+    "dosya": "ses/osym-2024-tar-2/aciklama.mp3",
+    "sure": 10.656,
+    "hash": "acb9c4dddae3"
+  },
+  "osym-2025-tr-12/baslik": {
+    "dosya": "ses/osym-2025-tr-12/baslik.mp3",
+    "sure": 1.731,
+    "hash": "db82e4418dc2"
+  },
+  "osym-2025-tr-12/kanca": {
+    "dosya": "ses/osym-2025-tr-12/kanca.mp3",
+    "sure": 3.422,
+    "hash": "9a57341c77d9"
+  },
+  "osym-2025-tr-12/soru": {
+    "dosya": "ses/osym-2025-tr-12/soru.mp3",
+    "sure": 25.422,
+    "hash": "c610a272e029"
+  },
+  "osym-2025-tr-12/cevap": {
+    "dosya": "ses/osym-2025-tr-12/cevap.mp3",
+    "sure": 2.595,
+    "hash": "f5e90e8c1f4a"
+  },
+  "osym-2025-tr-12/aciklama": {
+    "dosya": "ses/osym-2025-tr-12/aciklama.mp3",
+    "sure": 7.527,
+    "hash": "27212ae932a4"
   }
 }

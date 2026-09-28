@@ -1,5 +1,6 @@
 import React from 'react';
 import { spring, useCurrentFrame, useVideoConfig } from 'remotion';
+import { DERS_YAZI, dersBul } from '../dersler';
 import { hesap, trBuyuk } from '../icerik';
 import { FONT, usePalet } from '../tema';
 
@@ -54,18 +55,25 @@ export const Logo: React.FC<{ boyut: number; ters?: boolean; ilerleme?: number }
   );
 };
 
-export const Rozet: React.FC<{ metin: string; boyut?: number; renk?: string; yaziRenk?: string }> = ({
+export const Rozet: React.FC<{ metin: string; boyut?: number; renk?: string; yaziRenk?: string; ders?: string }> = ({
   metin,
   boyut = 28,
   renk,
   yaziRenk,
+  ders,
 }) => {
   const p = usePalet();
+  // Ders verilirse rozet o dersin renginde ve logosuyla çıkar
+  const d = dersBul(ders);
+  const Ikon = d?.Ikon;
   return (
     <div
       style={{
-        background: renk ?? p.ikincil,
-        color: yaziRenk ?? p.ikincilMetin,
+        display: 'flex',
+        alignItems: 'center',
+        gap: boyut * 0.35,
+        background: renk ?? d?.renk ?? p.ikincil,
+        color: yaziRenk ?? (d ? DERS_YAZI : p.ikincilMetin),
         fontSize: boyut,
         fontWeight: 800,
         letterSpacing: '0.08em',
@@ -75,6 +83,7 @@ export const Rozet: React.FC<{ metin: string; boyut?: number; renk?: string; yaz
         whiteSpace: 'nowrap',
       }}
     >
+      {Ikon && <Ikon size={boyut * 1.15} strokeWidth={2.6} style={{ marginTop: -boyut * 0.08 }} />}
       {trBuyuk(metin)}
     </div>
   );
@@ -91,8 +100,9 @@ export const HesapEtiketi: React.FC<{ logo?: number; yazi?: number; renk?: strin
 };
 
 // Üst şerit: solda hesap, sağda sınav/ders rozeti
-export const UstBar: React.FC<{ rozet?: string; y?: number; giris?: number; yanKenar?: number }> = ({
+export const UstBar: React.FC<{ rozet?: string; ders?: string; y?: number; giris?: number; yanKenar?: number }> = ({
   rozet,
+  ders,
   y = 196,
   giris = -100,
   yanKenar = 64,
@@ -116,7 +126,7 @@ export const UstBar: React.FC<{ rozet?: string; y?: number; giris?: number; yanK
       }}
     >
       <HesapEtiketi />
-      {rozet && <Rozet metin={rozet} />}
+      {rozet && <Rozet metin={rozet} ders={ders} />}
     </div>
   );
 };

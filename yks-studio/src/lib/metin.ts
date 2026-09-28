@@ -4,6 +4,7 @@
 export const duzMetin = (s: string) =>
   s
     .replace(/\*\*|==|~~/g, '')
+    .replace(/\[\[([^|\]]*)\|[^\]]*\]\]/g, '$1')
     .replace(/[\^_]\{([^}]*)\}/g, '$1');
 
 const UST_SIMGE: Record<string, string> = {
@@ -18,10 +19,11 @@ const ALT_SIMGE: Record<string, string> = {
 export const unicodeMetin = (s: string) =>
   s
     .replace(/\*\*|==|~~/g, '')
+    .replace(/\[\[([^|\]]*)\|[^\]]*\]\]/g, '$1')
     .replace(/\^\{([^}]*)\}/g, (_, x: string) => [...x].map((c) => UST_SIMGE[c] ?? c).join(''))
     .replace(/_\{([^}]*)\}/g, (_, x: string) => [...x].map((c) => ALT_SIMGE[c] ?? c).join(''));
 
-export const kelimeler = (s: string) => duzMetin(s).split(/\s+/).filter(Boolean);
+export const kelimeler = (s: string) => duzMetin(s).split(/[ \t\n]+/).filter(Boolean);
 
 // Her kelimenin, seslendirme içinde başladığı an (0-1 arası oran; harf sayısına göre)
 export const kelimeBaslangiclari = (s: string) => {

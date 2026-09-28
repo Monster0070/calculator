@@ -33,6 +33,27 @@ Her gün bir **reels** ve aynı konuda bir **bilgi notu** paylaşılıyor. Reels
 | 6 | `tar-gokturkler` | `tar-ilk-turk-devletleri` | `calisma-saati` (kaydırıcı) |
 | 7 | `cog-yagis` | `tr-paragraf-taktikleri` | — |
 
+### "ÖSYM SORDU" serisi (12 reels)
+
+2024, 2025 ve 2026 TYT kitapçıklarından seçildi. Hepsi şekilsiz sorular, cevapları ÖSYM'nin cevap anahtarıyla kontrol edildi. İlk haftadan sonra her gün bir tane paylaşabilirsin. İki seriyi dönüşümlü paylaşmak da iyi olur: bir gün klasik soru, ertesi gün ÖSYM sorusu.
+
+| Gün | Reels (`cikti/reels/`) | Ders |
+| --- | --- | --- |
+| 8 | `osym-2025-fiz-2` | TYT Fizik (ortalama hız tuzağı) |
+| 9 | `osym-2025-mat-12` | TYT Matematik (asalız sayı) |
+| 10 | `osym-2026-bio-17` | TYT Biyoloji |
+| 11 | `osym-2025-tr-12` | TYT Türkçe (yazım) |
+| 12 | `osym-2024-kim-13` | TYT Kimya |
+| 13 | `osym-2024-tar-2` | TYT Tarih |
+| 14 | `osym-2026-cog-9` | TYT Coğrafya |
+| 15 | `osym-2026-mat-40` | TYT Matematik |
+| 16 | `osym-2024-bio-16` | TYT Biyoloji |
+| 17 | `osym-2026-fiz-7` | TYT Fizik |
+| 18 | `osym-2024-kim-9` | TYT Kimya |
+| 19 | `osym-2025-mat-32` | TYT Matematik |
+
+**Telif notu:** ÖSYM kitapçıklarında "soruların her hakkı ÖSYM'ye aittir, yazılı izin olmadan yayımlanamaz" yazıyor. Çıkmış soru paylaşan hesaplar çok yaygın ve eğitim amaçlı, kaynak gösterilerek yapılan paylaşımlara genelde bir işlem yapılmıyor. Yine de risk tamamen yok değil. Videolarda ve açıklamalarda kaynak (yıl, test, soru no) her zaman yazıyor, bunu kaldırma. Soruları çözümsüz, toplu hâlde (kitapçık gibi) paylaşma.
+
 ## 3. Paylaşırken
 
 **Reels**

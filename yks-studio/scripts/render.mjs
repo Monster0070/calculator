@@ -47,6 +47,7 @@ const ALT = { 0: '₀', 1: '₁', 2: '₂', 3: '₃', 4: '₄', 5: '₅', 6: '�
 const duz = (s = '') =>
   s
     .replace(/\*\*|==|~~/g, '')
+    .replace(/\[\[([^|\]]*)\|[^\]]*\]\]/g, '$1')
     .replace(/\^\{([^}]*)\}/g, (_, x) => [...x].map((c) => UST[c] ?? c).join(''))
     .replace(/_\{([^}]*)\}/g, (_, x) => [...x].map((c) => ALT[c] ?? c).join(''));
 const etiketler = (liste = []) => [...hesap.genelEtiketler, ...liste].slice(0, 5).join(' ');
@@ -58,8 +59,9 @@ const aciklamaYaz = (id) => {
   if (tur === 'reels') {
     const r = reels.find((x) => x.id === icerikId);
     if (r.aciklamaMetni) return r.aciklamaMetni;
+    const kaynak = r.osym ? ['', `Kaynak: ÖSYM ${r.osym.yil}-${r.sinav}, ${r.osym.test} Testi, ${r.osym.soruNo}. soru`] : [];
     return [
-      `${duz(r.kanca ?? r.konu)} 🤔`,
+      r.osym ? `ÖSYM bu soruyu ${r.osym.yil} ${r.sinav}'de sordu 👀 Sen bilir misin?` : `${duz(r.kanca ?? r.konu)} 🤔`,
       '',
       `${r.sinav} ${r.ders}${r.konu ? ` • ${r.konu}` : ''}`,
       `❓ ${duz(r.soru)}`,
@@ -67,6 +69,7 @@ const aciklamaYaz = (id) => {
       '⏱️ 3 saniyen var! Cevabını yorumlara yaz 👇',
       '📌 Kaydet, sınavdan önce tekrar çöz.',
       takip,
+      ...kaynak,
       '',
       etiketler(r.etiketler),
     ].join('\n');

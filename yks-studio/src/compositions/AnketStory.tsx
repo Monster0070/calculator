@@ -3,6 +3,7 @@ import React from 'react';
 import { AbsoluteFill } from 'remotion';
 import { Arkaplan } from '../components/Arkaplan';
 import { HesapEtiketi, Rozet, UstBar } from '../components/Marka';
+import { dersBul } from '../dersler';
 import { anketBul } from '../icerik';
 import { ZenginMetin } from '../lib/zengin-metin';
 import { EL_YAZISI, FONT, PaletSaglayici, saydam, usePalet } from '../tema';
@@ -19,8 +20,8 @@ const AnketIcerigi: React.FC<{ a: AnketIcerik; cevap: boolean }> = ({ a, cevap }
   const p = usePalet();
   return (
     <AbsoluteFill style={{ fontFamily: FONT, color: p.metin }}>
-      <Arkaplan genislik={1080} yukseklik={1920} tohum={a.id} hareket={false} />
-      <UstBar rozet={[a.sinav, a.ders].filter(Boolean).join(' · ')} y={250} />
+      <Arkaplan genislik={1080} yukseklik={1920} tohum={a.id} hareket={false} parilti={dersBul(a.ders)?.renk} />
+      <UstBar rozet={[a.sinav, a.ders].filter(Boolean).join(' · ')} ders={a.ders} y={250} />
       {cevap ? <CevapYuzu a={a} /> : <SoruYuzu a={a} />}
     </AbsoluteFill>
   );

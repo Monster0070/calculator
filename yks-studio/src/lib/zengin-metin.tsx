@@ -4,8 +4,9 @@ import { saydam, usePalet } from '../tema';
 
 // İçerik metinlerindeki küçük işaretleme dili:
 //   **kalın vurgu**   ==fosforlu işaret==   ~~üstü çizili~~   2^{5} üs   H_{2} alt simge   → ok   \n alt satır
-type Etiket = 'ust' | 'alt' | 'vurgu' | 'isaret' | 'ciz';
-type Dugum = string | { tip: Etiket; cocuk: Dugum[] };
+//   [[söz|IV]]  altı çizili ve altına numara yazılmış söz (ÖSYM'nin numaralı söz soruları için)
+type Etiket = 'ust' | 'alt' | 'vurgu' | 'isaret' | 'ciz' | 'numara';
+type Dugum = string | { tip: Etiket; cocuk: Dugum[]; etiket?: string };
 
 const CIFT_ISARETLER: Array<[string, Etiket]> = [
   ['**', 'vurgu'],
@@ -31,6 +32,16 @@ export const cozumle = (s: string): Dugum[] => {
   };
   let i = 0;
   dongu: while (i < s.length) {
+    if (s.startsWith('[[', i)) {
+      const son = s.indexOf(']]', i + 2);
+      const ayrac = s.indexOf('|', i + 2);
+      if (son > 0 && ayrac > 0 && ayrac < son) {
+        bosalt();
+        sonuc.push({ tip: 'numara', cocuk: cozumle(s.slice(i + 2, ayrac)), etiket: s.slice(ayrac + 1, son) });
+        i = son + 2;
+        continue;
+      }
+    }
     if ((s[i] === '^' || s[i] === '_') && s[i + 1] === '{') {
       const son = kapanisBul(s, i + 1);
       if (son > 0) {
@@ -86,9 +97,9 @@ export const ZenginMetin: React.FC<Props> = ({ metin, kelimeStili, isaretIlerlem
     liste.map((d) => {
       const k = anahtar++;
       if (typeof d === 'string') {
-        return d.split(/(\s+)/).map((parca, m) => {
+        return d.split(/([ \t\n]+)/).map((parca, m) => {  // bölünmez boşluk (\u00a0) kelimeyi bölmez
           if (!parca) return null;
-          if (/^\s+$/.test(parca)) {
+          if (/^[ \t\n]+$/.test(parca)) {
             sayac.bosluk = true;
             return parca.includes('\n') ? <br key={`${k}-${m}`} /> : ' ';
           }
@@ -107,7 +118,13 @@ export const ZenginMetin: React.FC<Props> = ({ metin, kelimeStili, isaretIlerlem
         });
       }
       const cizgi: React.CSSProperties = { textDecoration: `line-through ${p.yanlis}`, textDecorationThickness: '0.09em' };
-      const icerik = ciz(d.cocuk, d.tip === 'ciz' ? { ...kelimeEk, ...cizgi } : kelimeEk);
+      const altCizgi: React.CSSProperties = {
+        textDecoration: `underline ${p.vurguYazi}`,
+        textDecorationThickness: '0.08em',
+        textUnderlineOffset: '0.18em',
+      };
+      const ek = d.tip === 'ciz' ? cizgi : d.tip === 'numara' ? altCizgi : null;
+      const icerik = ciz(d.cocuk, ek ? { ...kelimeEk, ...ek } : kelimeEk);
       switch (d.tip) {
         case 'ust':
           return (
@@ -125,6 +142,33 @@ export const ZenginMetin: React.FC<Props> = ({ metin, kelimeStili, isaretIlerlem
           return (
             <span key={k} style={{ color: p.vurguYazi, fontWeight: 800 }}>
               {icerik}
+            </span>
+          );
+        case 'numara':
+          return (
+            <span
+              key={k}
+              style={{
+                position: 'relative',
+                display: 'inline-block',
+                ...altCizgi,
+              }}
+            >
+              {icerik}
+              <span
+                style={{
+                  position: 'absolute',
+                  left: '50%',
+                  top: '100%',
+                  transform: 'translate(-50%, 0.12em)',
+                  fontSize: '0.56em',
+                  fontWeight: 800,
+                  lineHeight: 1,
+                  color: p.vurguYazi,
+                }}
+              >
+                {d.etiket}
+              </span>
             </span>
           );
         case 'ciz':

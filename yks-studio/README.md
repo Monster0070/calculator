@@ -5,12 +5,14 @@ Videolar [Remotion](https://www.remotion.dev) ile, yani React bileşenleriyle ç
 
 | Tür | Biçim | Ne yapıyor? |
 | --- | --- | --- |
-| **Soru Reels'i** | 1080×1920 MP4, 26–29 sn, müzik + efektler | Kanca cümlesi → soru (kelimeler okuma hızında parlar) → seçenekler → **3-2-1** geri sayım → doğru cevap + konfeti → çözüm → "yorumlara yaz / takip et". Seslendirmeyi sen ekliyorsun, metinler hazır. |
+| **Soru Reels'i** | 1080×1920 MP4, 25–55 sn, müzik + efektler | **"TYT KİMYA"** açılışı (ders logosu + rengi) → kanca cümlesi ya da **"ÖSYM SORDU"** damgası → soru (kelimeler okuma hızında parlar) → seçenekler → **3-2-1** geri sayım → doğru cevap + konfeti → çözüm ekranı → "yorumlara yaz / takip et". Seslendirmeyi sen ekliyorsun, metinler hazır. |
 | **Reels kapağı** | 1080×1920 PNG | Profil ızgarasında görünen kapak. "Cevap videoda!" |
 | **Bilgi notu gönderisi** | 1080×1350 PNG (4:5) | Formül kartı, yanlış→doğru tablosu, karşılaştırma, madde listesi |
 | **Anket hikâyesi** | 1080×1920 PNG | Anket / test (quiz) / kaydırıcı çıkartması için boşluk bırakılmış hikâye + quizler için ertesi günün **cevap** hikâyesi |
 | **Profil fotoğrafı** | 1080×1080 PNG | Geri sayım halkalı "YKS" logosu |
 | **Öne çıkan kapakları** | 1080×1920 PNG | Anketler, Cevaplar, Formüller, Notlar |
+
+Her dersin kendi rengi ve logosu var (`src/dersler.tsx`): Matematik π mavi, Türkçe kitap kırmızı, Fizik atom mor, Kimya deney şişesi turkuaz, Biyoloji DNA yeşil, Tarih anıt turuncu, Coğrafya dünya camgöbeği, Felsefe beyin pembe, Din Kültürü hilal kum rengi, Edebiyat tüy somon.
 
 Renk teması: **Gece Mesaisi** (lacivert `#0A0F2C` + fosforlu sarı `#FFD23F` + mavi `#7C9CFF` + yeşil `#2EE59D`).
 Karşılaştırma: `cikti/marka/palet-karsilastirma.png`.
@@ -76,6 +78,8 @@ Bütün içerik `icerik/` klasöründeki JSON dosyalarında. Kod değiştirmeye 
 ```
 
 - `id`: yalnızca İngilizce küçük harf, rakam ve `-` kullan (dosya adı olur).
+- `osym` alanı verilirse (`{ "yil": 2025, "test": "Temel Matematik", "soruNo": 12 }`) video "ÖSYM SORDU" damgasıyla açılır, çözümün altına ve açıklamaya kaynak yazılır.
+- Seçenekler kısaysa (ör. sayılar) kendiliğinden yan yana dizilir, uzun sorulara yer kalır.
 - `...Ses` alanları seslendirme metnidir. Yazılmazsa ekrandaki metin okunur. Formüllerde ("2 üssü 5") mutlaka yaz.
 - Sonra `npm run ses` ve `npm run render -- reels-<id>` çalıştır. Render bitince `cikti/reels/<id>-seslendirme.txt` de güncellenir.
 
@@ -103,6 +107,7 @@ Bütün içerik `icerik/` klasöründeki JSON dosyalarında. Kod değiştirmeye 
 | `2^{5}`, `H_{2}O` | üs ve alt simge |
 | `→` | ok |
 | `\n` | alt satıra geç |
+| `[[söz\|IV]]` | altı çizili, altına numara yazılı söz (ÖSYM'nin numaralı söz soruları) |
 
 ## Ayarlar: `icerik/hesap.json`
 

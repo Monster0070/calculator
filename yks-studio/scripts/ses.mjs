@@ -23,6 +23,7 @@ const eski = existsSync(MANIFEST) && !hepsi ? jsonOku('src', 'generated', 'ses.j
 const duzMetin = (s) =>
   s
     .replace(/\*\*|==|~~/g, '')
+    .replace(/\[\[([^|\]]*)\|[^\]]*\]\]/g, '$1')
     .replace(/\^\{([^}]*)\}/g, ' üssü $1')
     .replace(/_\{([^}]*)\}/g, '$1');
 
@@ -34,6 +35,7 @@ const isler = [
 ];
 for (const r of reels) {
   const ekle = (satir, metin) => metin && isler.push({ anahtar: `${r.id}/${satir}`, metin });
+  ekle('baslik', `${r.sinav} ${r.ders}.`);
   ekle('kanca', r.kancaSes ?? (r.kanca && duzMetin(r.kanca)));
   ekle('soru', r.soruSes ?? duzMetin(r.soru));
   ekle('cevap', r.cevapSes);

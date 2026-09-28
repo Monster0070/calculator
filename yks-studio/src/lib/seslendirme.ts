@@ -18,7 +18,9 @@ export const seslendirmeMetni = (r: ReelsIcerik) => {
   const blok = (ad: string, bas: number, enGec: number, metin: string) =>
     satirlar.push(`[${zaman(bas)} → ${zaman(enGec)}]  ${ad}`, metin, '');
 
-  if (z.kanca && r.kanca) blok('KANCA', z.kanca.bas, z.soruBas, r.kancaSes ?? duzMetin(r.kanca));
+  blok('BAŞLIK', z.baslik.bas, z.baslikSon, `${r.sinav} ${r.ders}!`);
+  const kancaMetni = r.kancaSes ?? (r.kanca ? duzMetin(r.kanca) : null);
+  if (z.kanca && kancaMetni) blok(r.osym ? 'ÖSYM SORDU' : 'KANCA', z.kanca.bas, z.soruBas, kancaMetni);
   blok('SORU', z.soru.bas, z.sayacBas, r.soruSes ?? duzMetin(r.soru));
   const sayac = Array.from({ length: GERI_SAYIM }, (_, i) => `[${zaman(z.sayacBas + i * FPS)}] ${SAYILAR[GERI_SAYIM - i - 1]}!`);
   satirlar.push(`${sayac.join('   ')}   (isteğe bağlı, videoda tik sesi var)`, '');

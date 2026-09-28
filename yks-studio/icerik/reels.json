@@ -162,5 +162,357 @@
       "#tytkimya",
       "#kimya"
     ]
+  },
+  {
+    "id": "osym-2026-mat-40",
+    "sinav": "TYT",
+    "ders": "Matematik",
+    "konu": "Prizmalar",
+    "osym": {
+      "yil": 2026,
+      "test": "Temel Matematik",
+      "soruNo": 40
+    },
+    "kanca": "Sen ==bilir misin?==",
+    "kancaSes": "ÖSYM bunu 2026'da sordu!",
+    "soru": "Yüzey alanı 400 birimkare, hacmi 400 birimküp olan bir dikdörtgenler prizmasının yüzlerinden birinin alanı 40 birimkare olduğuna göre bu yüzünün **çevre uzunluğu** kaç birimdir?",
+    "secenekler": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "dogru": "B",
+    "cevapSes": "Doğru cevap B: otuz iki!",
+    "aciklama": "O yüzün kenarları a ve b olsun: **a · b = 40**\nHacim 400 → üçüncü kenar **c = 400 : 40 = 10**\nYüzey alanı: 2(40 + 10a + 10b) = 400 → **a + b = 16**\nÇevre = 2(a + b) = **32**",
+    "aciklamaSes": "Yüzün kenarlarına a ve b dersek a çarpı b kırk. Hacim dört yüz olduğu için üçüncü kenar on. Yüzey alanından a artı b on altı çıkar, çevre de otuz iki.",
+    "etiketler": [
+      "#tytmatematik",
+      "#çıkmışsorular"
+    ]
+  },
+  {
+    "id": "osym-2025-mat-12",
+    "sinav": "TYT",
+    "ders": "Matematik",
+    "konu": "Asal Sayılar",
+    "osym": {
+      "yil": 2025,
+      "test": "Temel Matematik",
+      "soruNo": 12
+    },
+    "kanca": "Sen ==bilir misin?==",
+    "kancaSes": "ÖSYM bunu 2025'te sordu!",
+    "soru": "Bir doğal sayının kendisi asal sayı ama rakamlarından hiçbiri asal sayı değilse bu sayıya **asalız sayı** denir.\nÖrneğin 109 bir asalız sayıdır.\nBuna göre iki basamaklı bütün asalız sayıların toplamı kaçtır?",
+    "secenekler": [
+      "145",
+      "163",
+      "189",
+      "207",
+      "221"
+    ],
+    "dogru": "E",
+    "cevapSes": "Doğru cevap E: iki yüz yirmi bir!",
+    "aciklama": "Asal olmayan rakamlar: **0, 1, 4, 6, 8, 9**\nBu rakamlarla yazılan iki basamaklı asallar: **11, 19, 41, 61, 89**\nToplam = **221**",
+    "aciklamaSes": "Asal olmayan rakamlar sıfır, bir, dört, altı, sekiz ve dokuz. Bu rakamlarla yazılan iki basamaklı asallar on bir, on dokuz, kırk bir, altmış bir ve seksen dokuz. Toplamları iki yüz yirmi bir.",
+    "etiketler": [
+      "#tytmatematik",
+      "#çıkmışsorular"
+    ]
+  },
+  {
+    "id": "osym-2025-mat-32",
+    "sinav": "TYT",
+    "ders": "Matematik",
+    "konu": "Üçgenler",
+    "osym": {
+      "yil": 2025,
+      "test": "Temel Matematik",
+      "soruNo": 32
+    },
+    "kanca": "Sen ==bilir misin?==",
+    "kancaSes": "ÖSYM bunu 2025'te sordu!",
+    "soru": "Tüm kenarlarının uzunlukları santimetre türünden birbirinden farklı tam sayılar olan bir üçgene **çeşitkenar tam sayı üçgen** denir.\nBuna göre bir çeşitkenar tam sayı üçgenin çevre uzunluğu en az kaç santimetredir?",
+    "secenekler": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "dogru": "D",
+    "cevapSes": "Doğru cevap D: dokuz!",
+    "aciklama": "1, 2, 3 üçgen olmaz: 1 + 2 = 3\nÇevresi 7 ve 8 olan üçlüler de **üçgen eşitsizliğini** sağlamaz.\nEn küçük uygun üçlü **2, 3, 4** → çevre **9 cm**",
+    "aciklamaSes": "Bir, iki, üç üçgen oluşturmaz. Çevresi yedi ve sekiz olan üçlüler de üçgen eşitsizliğini sağlamaz. En küçük uygun üçlü iki, üç, dört; çevre dokuz santimetre.",
+    "etiketler": [
+      "#tytmatematik",
+      "#çıkmışsorular"
+    ]
+  },
+  {
+    "id": "osym-2025-fiz-2",
+    "sinav": "TYT",
+    "ders": "Fizik",
+    "konu": "Hareket",
+    "osym": {
+      "yil": 2025,
+      "test": "Fen Bilimleri",
+      "soruNo": 2
+    },
+    "kanca": "Sen ==bilir misin?==",
+    "kancaSes": "ÖSYM bunu 2025'te sordu!",
+    "soru": "Ali kolundaki akıllı saat sayesinde günlük adım sayısını ölçebilmektedir. Saat 08.00’de evinin dış kapısından çıkıp akşam 16.00’da evinin dış kapısındaki aynı noktaya geri dönen Ali bu zaman aralığında toplam 10.000 adım attığını tespit ediyor.\nAli’nin bir adımı ortalama 80 cm olduğuna göre belirtilen saatler arasındaki **ortalama hızının** büyüklüğü kaç km/h’tir?",
+    "soruSes": "Ali kolundaki akıllı saat sayesinde günlük adım sayısını ölçebilmektedir. Saat sekizde evinin dış kapısından çıkıp akşam on altıda evinin dış kapısındaki aynı noktaya geri dönen Ali, bu zaman aralığında toplam on bin adım attığını tespit ediyor. Ali'nin bir adımı ortalama seksen santimetre olduğuna göre, belirtilen saatler arasındaki ortalama hızının büyüklüğü kaç kilometre bölü saattir?",
+    "secenekler": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru": "A",
+    "cevapSes": "Doğru cevap A: sıfır!",
+    "aciklama": "Ali **aynı noktaya** döndüğü için yer değiştirme **0**.\nOrtalama hız = yer değiştirme / zaman = **0 km/h**\n8 km yolu 8 saatte yürüdüğü için 1 km/h ise ortalama **sürat** olurdu.",
+    "aciklamaSes": "Ali aynı noktaya döndüğü için yer değiştirmesi sıfır, ortalama hızı da sıfır. Sekiz kilometreyi sekiz saatte yürüdüğü için bir kilometre bölü saat ise ortalama sürat olurdu.",
+    "etiketler": [
+      "#tytfizik",
+      "#çıkmışsorular"
+    ]
+  },
+  {
+    "id": "osym-2026-fiz-7",
+    "sinav": "TYT",
+    "ders": "Fizik",
+    "konu": "Aynalar",
+    "osym": {
+      "yil": 2026,
+      "test": "Fen Bilimleri",
+      "soruNo": 7
+    },
+    "kanca": "Sen ==bilir misin?==",
+    "kancaSes": "ÖSYM bunu 2026'da sordu!",
+    "soru": "Boyu 1,80 m olan Ali, bir cam atölyesinde bulunan farklı türdeki büyük boyutlu aynaların karşısında sırayla durup kendisinin tamamının bu aynalarda oluşan görüntülerine ayrı ayrı bakmakta ve gördüğü bu görüntülerin boyunu ölçebilmektedir.\nAli kendi görüntüsünün boyunu **I. düzlem, II. tümsek, III. çukur** aynaların hangilerine bakarken 1,80 m’den daha uzun ölçmüş olabilir?",
+    "soruSes": "Boyu bir metre seksen santimetre olan Ali, bir cam atölyesindeki farklı türdeki büyük aynaların karşısında sırayla durup görüntüsünün boyunu ölçüyor. Ali kendi görüntüsünün boyunu düzlem, tümsek ve çukur aynaların hangilerine bakarken bir metre seksenden daha uzun ölçmüş olabilir?",
+    "secenekler": [
+      "Yalnız I",
+      "Yalnız II",
+      "Yalnız III",
+      "I ve II",
+      "II ve III"
+    ],
+    "dogru": "C",
+    "cevapSes": "Doğru cevap C: yalnız üç!",
+    "aciklama": "Düzlem ayna: görüntü boyu **eşit**\nTümsek ayna: görüntü her zaman **küçük**\nÇukur ayna: cisim yakınken görüntü **büyük** olabilir → **Yalnız III**",
+    "aciklamaSes": "Düzlem aynada görüntü boyu eşittir, tümsek aynada ise her zaman küçüktür. Görüntü sadece çukur aynada büyük olabilir.",
+    "etiketler": [
+      "#tytfizik",
+      "#çıkmışsorular"
+    ]
+  },
+  {
+    "id": "osym-2024-kim-13",
+    "sinav": "TYT",
+    "ders": "Kimya",
+    "konu": "Çözeltiler",
+    "osym": {
+      "yil": 2024,
+      "test": "Fen Bilimleri",
+      "soruNo": 13
+    },
+    "kanca": "Sen ==bilir misin?==",
+    "kancaSes": "ÖSYM bunu 2024'te sordu!",
+    "soru": "Belirli bir sıcaklıkta, 80 gram tuz ile 120 gram su karıştırılıyor. Daha fazla çözünme olmayıncaya kadar beklendiğinde tuzun 40 gramının, kabın dibinde çözünmeden kaldığı gözlemleniyor.\nBuna göre çözeltide tuzun **kütlece yüzde derişimi** kaçtır?\n(Suyun buharlaşmadığı varsayılacaktır.)",
+    "secenekler": [
+      "20",
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "dogru": "B",
+    "cevapSes": "Doğru cevap B: yüzde yirmi beş!",
+    "aciklama": "Çözünen tuz: 80 − 40 = **40 g**\nÇözelti kütlesi: 40 + 120 = **160 g**\nKütlece yüzde = 40 / 160 · 100 = **%25**",
+    "aciklamaSes": "Çözünen tuz kırk gram, çözelti kütlesi yüz altmış gram. Kırkın yüz altmışa oranı yüzde yirmi beş.",
+    "etiketler": [
+      "#tytkimya",
+      "#çıkmışsorular"
+    ]
+  },
+  {
+    "id": "osym-2024-kim-9",
+    "sinav": "TYT",
+    "ders": "Kimya",
+    "konu": "Atom Modelleri",
+    "osym": {
+      "yil": 2024,
+      "test": "Fen Bilimleri",
+      "soruNo": 9
+    },
+    "kanca": "Sen ==bilir misin?==",
+    "kancaSes": "ÖSYM bunu 2024'te sordu!",
+    "soru": "Rutherford Atom Modeli’ne göre\nI. Atomda pozitif yükler çekirdekte toplanmıştır.\nII. Atomda elektronlar orbitallerde bulunur.\nIII. Atom hacminin büyük bir kısmı boşluktur.\nifadelerinden hangileri doğrudur?",
+    "secenekler": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "I ve III",
+      "II ve III"
+    ],
+    "dogru": "D",
+    "cevapSes": "Doğru cevap D: bir ve üç!",
+    "aciklama": "Rutherford: pozitif yük **çekirdekte**, atomun büyük kısmı **boşluk**.\n**Orbital** kavramı ise **modern atom modeline** aittir.",
+    "aciklamaSes": "Rutherford'a göre pozitif yükler çekirdekte toplanır ve atomun büyük kısmı boşluktur. Orbital kavramı ise modern atom modeline aittir.",
+    "etiketler": [
+      "#tytkimya",
+      "#çıkmışsorular"
+    ]
+  },
+  {
+    "id": "osym-2026-bio-17",
+    "sinav": "TYT",
+    "ders": "Biyoloji",
+    "konu": "Hücre",
+    "osym": {
+      "yil": 2026,
+      "test": "Fen Bilimleri",
+      "soruNo": 17
+    },
+    "kanca": "Sen ==bilir misin?==",
+    "kancaSes": "ÖSYM bunu 2026'da sordu!",
+    "soru": "Aşağıdaki özelliklerden hangisine sahip olması bir canlının **ökaryotik** olduğunu kanıtlar?",
+    "secenekler": [
+      "Halkasal DNA’ya sahip olması",
+      "Hücre duvarına sahip olması",
+      "Kamçıya sahip olması",
+      "Ribozoma sahip olması",
+      "Mitokondriye sahip olması"
+    ],
+    "dogru": "E",
+    "cevapSes": "Doğru cevap E: mitokondri!",
+    "aciklama": "Mitokondri **zarlı** bir organeldir; zarlı organeller yalnızca **ökaryotlarda** bulunur.\nHalkasal DNA, hücre duvarı, kamçı ve ribozom **prokaryotlarda** da görülür.",
+    "aciklamaSes": "Mitokondri zarlı bir organeldir ve zarlı organeller sadece ökaryotlarda bulunur. Diğer özellikler prokaryotlarda da görülür.",
+    "etiketler": [
+      "#tytbiyoloji",
+      "#çıkmışsorular"
+    ]
+  },
+  {
+    "id": "osym-2024-bio-16",
+    "sinav": "TYT",
+    "ders": "Biyoloji",
+    "konu": "Organik Moleküller",
+    "osym": {
+      "yil": 2024,
+      "test": "Fen Bilimleri",
+      "soruNo": 16
+    },
+    "kanca": "Sen ==bilir misin?==",
+    "kancaSes": "ÖSYM bunu 2024'te sordu!",
+    "soru": "Aşağıdaki organik moleküllerden hangisi bir **polimer** değildir?",
+    "secenekler": [
+      "Glikojen",
+      "Kitin",
+      "Nükleik asit",
+      "Trigliserit",
+      "Protein"
+    ],
+    "dogru": "D",
+    "cevapSes": "Doğru cevap D: trigliserit!",
+    "aciklama": "Trigliserit **1 gliserol + 3 yağ asidinden** oluşur; tekrarlanan monomerlerden oluşmadığı için polimer değildir.\nGlikojen, kitin, protein ve nükleik asit **polimerdir**.",
+    "aciklamaSes": "Trigliserit bir gliserol ve üç yağ asidinden oluşur, tekrarlanan birimlerden oluşmadığı için polimer değildir.",
+    "etiketler": [
+      "#tytbiyoloji",
+      "#çıkmışsorular"
+    ]
+  },
+  {
+    "id": "osym-2026-cog-9",
+    "sinav": "TYT",
+    "ders": "Coğrafya",
+    "konu": "Bölgeler",
+    "osym": {
+      "yil": 2026,
+      "test": "Sosyal Bilimler",
+      "soruNo": 9
+    },
+    "kanca": "Sen ==bilir misin?==",
+    "kancaSes": "ÖSYM bunu 2026'da sordu!",
+    "soru": "Belirli bir amaç doğrultusunda oluşturulan bölgelerden bazılarının sınırları diğerlerine göre daha kısa bir zaman diliminde değişmektedir.\nAşağıdakilerden hangisi bu duruma **örnek** gösterilebilir?",
+    "secenekler": [
+      "Dağlık bölge",
+      "Çöl bölgesi",
+      "İklim bölgesi",
+      "Yönetsel bölge",
+      "Alpin çayırlar bölgesi"
+    ],
+    "dogru": "D",
+    "cevapSes": "Doğru cevap D: yönetsel bölge!",
+    "aciklama": "Yönetsel (idari) bölgelerin sınırlarını **insanlar** çizer; yasal kararlarla **kısa sürede** değişebilir.\nDağ, çöl ve iklim gibi **doğal** bölgelerin sınırları çok uzun sürede değişir.",
+    "aciklamaSes": "Yönetsel bölgelerin sınırlarını insanlar belirler ve kısa sürede değişebilir. Doğal bölgelerin sınırları ise çok uzun sürede değişir.",
+    "etiketler": [
+      "#tytcoğrafya",
+      "#çıkmışsorular"
+    ]
+  },
+  {
+    "id": "osym-2024-tar-2",
+    "sinav": "TYT",
+    "ders": "Tarih",
+    "konu": "Türkiye Selçukluları",
+    "osym": {
+      "yil": 2024,
+      "test": "Sosyal Bilimler",
+      "soruNo": 2
+    },
+    "kanca": "Sen ==bilir misin?==",
+    "kancaSes": "ÖSYM bunu 2024'te sordu!",
+    "soru": "I. Alâeddin Keykubad’ın Moğollara karşı birlikte hareket etme teklifini reddeden, Ahlat’ı kuşatarak Anadolu için bir tehdit oluşturan ve **Yassıçemen Savaşı**’nda Türkiye Selçukluları tarafından mağlup edilen devlet aşağıdakilerden hangisidir?",
+    "soruSes": "Birinci Alâeddin Keykubad'ın Moğollara karşı birlikte hareket etme teklifini reddeden, Ahlat'ı kuşatarak Anadolu için tehdit oluşturan ve Yassıçemen Savaşı'nda Türkiye Selçukluları tarafından mağlup edilen devlet hangisidir?",
+    "secenekler": [
+      "Karakoyunlular",
+      "Gazneliler",
+      "Bizans",
+      "Akkoyunlular",
+      "Harzemşahlar"
+    ],
+    "dogru": "E",
+    "cevapSes": "Doğru cevap E: Harzemşahlar!",
+    "aciklama": "1230 **Yassıçemen Savaşı**'nda Türkiye Selçukluları **Harzemşahları** yendi.\nHarzemşahlar yıkılınca Anadolu ile Moğollar arasındaki **tampon** ortadan kalktı.",
+    "aciklamaSes": "Bin iki yüz otuzdaki Yassıçemen Savaşı'nda Türkiye Selçukluları Harzemşahları yendi. Böylece Anadolu ile Moğollar arasındaki tampon ortadan kalktı.",
+    "etiketler": [
+      "#tyttarih",
+      "#çıkmışsorular"
+    ]
+  },
+  {
+    "id": "osym-2025-tr-12",
+    "sinav": "TYT",
+    "ders": "Türkçe",
+    "konu": "Yazım Kuralları",
+    "osym": {
+      "yil": 2025,
+      "test": "Türkçe",
+      "soruNo": 12
+    },
+    "kanca": "Sen ==bilir misin?==",
+    "kancaSes": "ÖSYM bunu 2025'te sordu!",
+    "soru": "Fiziğin XX. yüzyıl boyunca gerçekleştirdiği [[olağanüstü|I]] gelişmelere benzer başarıların [[kaydedildiği|II]] bir diğer [[bilim dalı|III]] astronomidir. Uzak geçmişten modern çağa kadar [[gökbilimciler|IV]]; her dönem evreni tanımak, onun nasıl oluştuğunu ve [[katettiği|V]] evreleri belirlemek için büyük çaba göstermiştir.\nBu parçada numaralanmış sözlerden hangisinin **yazımı yanlıştır?**",
+    "soruSes": "Fiziğin yirminci yüzyıl boyunca gerçekleştirdiği olağanüstü gelişmelere benzer başarıların kaydedildiği bir diğer bilim dalı astronomidir. Uzak geçmişten modern çağa kadar gökbilimciler, her dönem evreni tanımak, onun nasıl oluştuğunu ve katettiği evreleri belirlemek için büyük çaba göstermiştir. Bu parçada numaralanmış sözlerden hangisinin yazımı yanlıştır?",
+    "secenekler": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "V"
+    ],
+    "dogru": "D",
+    "cevapSes": "Doğru cevap D: gökbilimciler!",
+    "aciklama": "“Gök bilimci” **ayrı** yazılır: gök bilimi, gök bilimci.\nDiğerleri doğru: **olağanüstü, kaydedildiği, bilim dalı, katettiği**",
+    "aciklamaSes": "Gök bilimci ayrı yazılır. Olağanüstü, kaydedildiği, bilim dalı ve katettiği ise doğru yazılmış.",
+    "etiketler": [
+      "#tyttürkçe",
+      "#çıkmışsorular"
+    ]
   }
 ]

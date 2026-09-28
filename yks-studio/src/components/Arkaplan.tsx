@@ -29,12 +29,20 @@ const desenStili = (p: Palet, t: number): React.CSSProperties => {
 
 // Hareketli arka plan: degrade + desen + ışık lekeleri + süzülen semboller
 // Boyut, önizlemelerde küçültülmüş hâlde de aynı görünmesi için dışarıdan verilir.
-export const Arkaplan: React.FC<{ genislik: number; yukseklik: number; tohum?: string; hareket?: boolean; sembolSayisi?: number }> = ({
+export const Arkaplan: React.FC<{
+  genislik: number;
+  yukseklik: number;
+  tohum?: string;
+  hareket?: boolean;
+  sembolSayisi?: number;
+  parilti?: string; // ikinci ışık lekesinin rengi (ör. ders rengi)
+}> = ({
   genislik: width,
   yukseklik: height,
   tohum = 'yks',
   hareket = true,
   sembolSayisi = 14,
+  parilti,
 }) => {
   const p = usePalet();
   const kare = useCurrentFrame();
@@ -69,7 +77,7 @@ export const Arkaplan: React.FC<{ genislik: number; yukseklik: number; tohum?: s
       />
       <AbsoluteFill
         style={{
-          background: `radial-gradient(45% 35% at ${45 + 30 * Math.cos(t / 110)}% ${78 + 8 * Math.sin(t / 80)}%, ${saydam(p.ikincil, p.koyu ? 0.16 : 0.07)} 0%, transparent 70%)`,
+          background: `radial-gradient(45% 35% at ${45 + 30 * Math.cos(t / 110)}% ${78 + 8 * Math.sin(t / 80)}%, ${saydam(parilti ?? p.ikincil, p.koyu ? 0.18 : 0.08)} 0%, transparent 70%)`,
         }}
       />
       {semboller.map((s, i) => (
