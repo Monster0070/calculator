@@ -2,7 +2,7 @@ import React from 'react';
 import { Composition, Folder, Still } from 'remotion';
 import { AnketStory } from './compositions/AnketStory';
 import { BilgiPost } from './compositions/BilgiPost';
-import { PaletKarsilastirma, ProfilFoto } from './compositions/Marka';
+import { ONE_CIKANLAR, OneCikanKapak, PaletKarsilastirma, ProfilFoto } from './compositions/Marka';
 import { ReelsOnizleme } from './compositions/Onizleme';
 import { ReelsKapak } from './compositions/ReelsKapak';
 import { SoruReels } from './compositions/SoruReels';
@@ -77,6 +77,9 @@ export const RemotionRoot: React.FC = () => (
     </Folder>
     <Folder name="Marka">
       <Still id="profil-foto" component={ProfilFoto} width={1080} height={1080} defaultProps={{}} />
+      {(Object.keys(ONE_CIKANLAR) as Array<keyof typeof ONE_CIKANLAR>).map((ad) => (
+        <Still key={ad} id={`onecikan-${ad}`} component={OneCikanKapak} width={1080} height={1920} defaultProps={{ ad }} />
+      ))}
       {/* Donmuş kareler kompozisyon süresine kırpıldığı için süre ilk reels kadar tutulur (render: tek kare) */}
       <Composition
         id="palet-karsilastirma"

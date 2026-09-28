@@ -5,11 +5,12 @@ Videolar [Remotion](https://www.remotion.dev) ile, yani React bileşenleriyle ç
 
 | Tür | Biçim | Ne yapıyor? |
 | --- | --- | --- |
-| **Soru Reels'i** | 1080×1920 MP4, ~25 sn, müzik + efektler | Kanca cümlesi → soru (kelimeler okuma hızında parlar) → seçenekler → **3-2-1** geri sayım → doğru cevap + konfeti → çözüm → "yorumlara yaz / takip et". Seslendirmeyi sen ekliyorsun, metinler hazır. |
+| **Soru Reels'i** | 1080×1920 MP4, 26–29 sn, müzik + efektler | Kanca cümlesi → soru (kelimeler okuma hızında parlar) → seçenekler → **3-2-1** geri sayım → doğru cevap + konfeti → çözüm → "yorumlara yaz / takip et". Seslendirmeyi sen ekliyorsun, metinler hazır. |
 | **Reels kapağı** | 1080×1920 PNG | Profil ızgarasında görünen kapak. "Cevap videoda!" |
 | **Bilgi notu gönderisi** | 1080×1350 PNG (4:5) | Formül kartı, yanlış→doğru tablosu, karşılaştırma, madde listesi |
 | **Anket hikâyesi** | 1080×1920 PNG | Anket / test (quiz) / kaydırıcı çıkartması için boşluk bırakılmış hikâye + quizler için ertesi günün **cevap** hikâyesi |
 | **Profil fotoğrafı** | 1080×1080 PNG | Geri sayım halkalı "YKS" logosu |
+| **Öne çıkan kapakları** | 1080×1920 PNG | Anketler, Cevaplar, Formüller, Notlar |
 
 Renk teması: **Gece Mesaisi** (lacivert `#0A0F2C` + fosforlu sarı `#FFD23F` + mavi `#7C9CFF` + yeşil `#2EE59D`).
 Karşılaştırma: `cikti/marka/palet-karsilastirma.png`.
@@ -22,7 +23,7 @@ Hepsi `cikti/` klasöründe:
 - `cikti/SESLENDIRME-METINLERI.txt`: bütün reels'lerin seslendirme metinleri tek dosyada
 - `cikti/gonderiler/<id>.png` ve `<id>.txt`
 - `cikti/anketler/<id>.png`, quizlerde `<id>-cevap.png`. `<id>.txt` dosyasında çıkartma adım adım anlatılıyor.
-- `cikti/marka/profil-foto.png`
+- `cikti/marka/profil-foto.png`, `cikti/marka/onecikan-*.png` (öne çıkan hikâye kapakları)
 
 Paylaşım takvimi ve hesap kurulumu: [HESAP-PLANI.md](HESAP-PLANI.md)
 

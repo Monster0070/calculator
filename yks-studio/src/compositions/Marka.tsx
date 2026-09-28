@@ -1,3 +1,4 @@
+import { BookOpen, ChartNoAxesColumn, CircleCheckBig, Sigma } from 'lucide-react';
 import React from 'react';
 import { AbsoluteFill, Freeze } from 'remotion';
 import { Logo } from '../components/Marka';
@@ -25,6 +26,48 @@ const ProfilIcerik: React.FC = () => {
       }}
     >
       <Logo boyut={860} />
+    </AbsoluteFill>
+  );
+};
+
+// Öne çıkan hikâye kapakları (Instagram ortadaki daireyi gösterir)
+export const ONE_CIKANLAR = {
+  anketler: ChartNoAxesColumn,
+  cevaplar: CircleCheckBig,
+  formuller: Sigma,
+  notlar: BookOpen,
+};
+
+export const OneCikanKapak: React.FC<{ ad: keyof typeof ONE_CIKANLAR; palet?: string }> = ({ ad, palet }) => (
+  <PaletSaglayici palet={palet}>
+    <OneCikanIcerik Ikon={ONE_CIKANLAR[ad]} />
+  </PaletSaglayici>
+);
+
+const OneCikanIcerik: React.FC<{ Ikon: (typeof ONE_CIKANLAR)[keyof typeof ONE_CIKANLAR] }> = ({ Ikon }) => {
+  const p = usePalet();
+  return (
+    <AbsoluteFill
+      style={{
+        background: `radial-gradient(circle at 50% 45%, ${p.arkaplan2} 0%, ${p.arkaplan} 60%)`,
+        display: 'grid',
+        placeItems: 'center',
+      }}
+    >
+      <div
+        style={{
+          width: 640,
+          height: 640,
+          borderRadius: '50%',
+          background: p.vurgu,
+          color: p.vurguMetin,
+          display: 'grid',
+          placeItems: 'center',
+          boxShadow: `0 0 0 28px ${p.yuzey}`,
+        }}
+      >
+        <Ikon size={330} strokeWidth={2.2} />
+      </div>
     </AbsoluteFill>
   );
 };

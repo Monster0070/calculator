@@ -17,7 +17,7 @@ Instagram hesabını sen açacaksın. Adımlar:
    ```
 
 5. Ayarlar'dan **profesyonel hesaba** geç (Üretici, kategori: Eğitim). Böylece hangi içeriğin tuttuğunu istatistiklerden görebilirsin.
-6. **Öne çıkanlar** için üç başlık aç: `Anketler`, `Cevaplar`, `Formüller`
+6. **Öne çıkanlar** için dört başlık aç: `Anketler`, `Cevaplar`, `Formüller`, `Notlar`. Kapakları: `cikti/marka/onecikan-*.png`
 
 ## 2. İlk hafta takvimi
 

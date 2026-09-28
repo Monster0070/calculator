@@ -24,11 +24,11 @@ const GRUPLAR = {
   reels: ['reels-', 'kapak-'],
   gonderiler: ['gonderi-'],
   anketler: ['anket-'],
-  marka: ['profil-', 'palet-'],
+  marka: ['profil-', 'onecikan-', 'palet-'],
   onizleme: ['onizleme-'],
 };
 // Bu önekler tek kare (PNG) olarak alınır; diğerleri video
-const TEK_KARE = ['kapak-', 'gonderi-', 'anket-', 'profil-', 'palet-', 'onizleme-'];
+const TEK_KARE = ['kapak-', 'gonderi-', 'anket-', 'profil-', 'onecikan-', 'palet-', 'onizleme-'];
 const VARSAYILAN = [...GRUPLAR.reels, ...GRUPLAR.gonderiler, ...GRUPLAR.anketler, ...GRUPLAR.marka];
 
 const secildiMi = (id) => {
