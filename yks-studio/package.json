@@ -10,7 +10,9 @@
     "render": "node scripts/render.mjs",
     "typecheck": "tsc --noEmit",
     "kare": "node scripts/kare.mjs",
-    "metin": "node scripts/metin.mjs"
+    "metin": "node scripts/metin.mjs",
+    "jpg": "node scripts/jpg.mjs",
+    "instagram": "node scripts/instagram.mjs"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.529",

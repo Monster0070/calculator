@@ -1,0 +1,88 @@
+{
+  "aciklama": "Her çalıştırmada sıradaki gün paylaşılır: önce reels, sonra (varsa) bilgi notu gönderisi. Hikâyeler (anket çıkartmalı) API ile paylaşılamadığı için elle paylaşılır.",
+  "gunler": [
+    {
+      "gun": 1,
+      "reels": "mat-uslu-sayilar",
+      "gonderi": "mat-uslu-kurallar"
+    },
+    {
+      "gun": 2,
+      "reels": "tr-yazim-kurallari",
+      "gonderi": "tr-yanlis-yazilanlar"
+    },
+    {
+      "gun": 3,
+      "reels": "fiz-serbest-dusme",
+      "gonderi": "fiz-hareket-formulleri"
+    },
+    {
+      "gun": 4,
+      "reels": "kim-fiziksel-degisim",
+      "gonderi": "kim-asit-baz"
+    },
+    {
+      "gun": 5,
+      "reels": "bio-hucre",
+      "gonderi": "bio-organeller"
+    },
+    {
+      "gun": 6,
+      "reels": "tar-gokturkler",
+      "gonderi": "tar-ilk-turk-devletleri"
+    },
+    {
+      "gun": 7,
+      "reels": "cog-yagis",
+      "gonderi": "tr-paragraf-taktikleri"
+    },
+    {
+      "gun": 8,
+      "reels": "osym-2025-fiz-2"
+    },
+    {
+      "gun": 9,
+      "reels": "osym-2025-mat-12"
+    },
+    {
+      "gun": 10,
+      "reels": "osym-2026-bio-17"
+    },
+    {
+      "gun": 11,
+      "reels": "osym-2025-tr-12"
+    },
+    {
+      "gun": 12,
+      "reels": "osym-2024-kim-13"
+    },
+    {
+      "gun": 13,
+      "reels": "osym-2024-tar-2"
+    },
+    {
+      "gun": 14,
+      "reels": "osym-2026-cog-9"
+    },
+    {
+      "gun": 15,
+      "reels": "osym-2026-mat-40"
+    },
+    {
+      "gun": 16,
+      "reels": "osym-2024-bio-16"
+    },
+    {
+      "gun": 17,
+      "reels": "osym-2026-fiz-7"
+    },
+    {
+      "gun": 18,
+      "reels": "osym-2024-kim-9"
+    },
+    {
+      "gun": 19,
+      "reels": "osym-2025-mat-32"
+    }
+  ]
+}

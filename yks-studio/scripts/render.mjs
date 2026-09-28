@@ -198,3 +198,9 @@ if (!deneme) {
   }
   writeFileSync(yol('cikti', 'ACIKLAMALAR.txt'), `${parcalar.join('\n\n')}\n`);
 }
+
+// Instagram API için kapak ve gönderilerin JPEG kopyaları
+if (!deneme && secilenler.some((k) => k.id.startsWith('kapak-') || k.id.startsWith('gonderi-'))) {
+  const { jpgleriGuncelle } = await import('./jpg.mjs');
+  await jpgleriGuncelle();
+}

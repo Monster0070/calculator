@@ -30,6 +30,14 @@ PyMuPDF (`pip install pymupdf`), pick questions without figures that fit a reel,
 formulas, underlines or numbering (`[[söz|IV]]` markup). Reel items get `"osym": {"yil", "test", "soruNo"}` and the source line
 must stay in the video and caption. Subject colors/icons live in `src/dersler.tsx`; the opening card shows e.g. "TYT KİMYA".
 
+## Instagram publishing
+
+`scripts/instagram.mjs` (no npm deps) publishes via the official Instagram API with Instagram Login (graph.instagram.com),
+token in env `IG_ACCESS_TOKEN` (never ask for it or a password in chat; never log in with a password). Media URLs point at the
+pushed commit on GitHub (jsDelivr, fallback raw.githubusercontent), so commit + push before publishing. Images must be JPEG
+(`npm run jpg`, also run by `npm run render`). The plan is `paylasim/plan.json`; after publishing, commit + push
+`paylasim/durum.json`. Stories with poll/quiz stickers can't be posted via the API, so the user posts those manually.
+
 ## Workflow for new content
 
 1. Add items to `icerik/*.json` (ids: `[a-z0-9-]`). For math, write explicit `soruSes`/`aciklamaSes` (spoken Turkish).

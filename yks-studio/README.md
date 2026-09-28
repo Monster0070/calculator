@@ -29,6 +29,10 @@ Hepsi `cikti/` klasöründe:
 
 Paylaşım takvimi ve hesap kurulumu: [HESAP-PLANI.md](HESAP-PLANI.md)
 
+## Instagram'a otomatik paylaşım
+
+`npm run instagram -- yayinla --siradaki` komutu, `paylasim/plan.json` dosyasındaki sıradaki günü (reels + bilgi notu) Instagram'ın resmî API'siyle paylaşır ve `paylasim/durum.json` dosyasına yazar. Kurulum için bkz. [INSTAGRAM-KURULUM.md](INSTAGRAM-KURULUM.md). Token şifre değildir, `IG_ACCESS_TOKEN` ortam değişkeninde durur. Diğer komutlar: `kontrol`, `durum`, `--deneme` (API'ye gitmeden gösterir).
+
 ## Kurulum (bilgisayarda çalıştırmak istersen)
 
 Node.js 18+ gerekiyor.
