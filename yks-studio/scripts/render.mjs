@@ -6,7 +6,7 @@
 //   npm run render -- onizleme --palet=mor     → farklı bir paletle dene (çıktı out/ klasörüne)
 import { bundle } from '@remotion/bundler';
 import { getCompositions, renderMedia, renderStill } from '@remotion/renderer';
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { jsonOku, tarayiciBul, yol } from './lib/araclar.mjs';
@@ -178,3 +178,20 @@ for (const [i, komp] of secilenler.entries()) {
 }
 
 if (!deneme && secilenler.some((k) => k.id.startsWith('reels-'))) await import('./metin.mjs');
+
+// Bütün Instagram açıklamalarını tek dosyada topla (telefondan kopyalamak kolay olsun)
+if (!deneme) {
+  const bolumler = [
+    ['REELS', 'reels'],
+    ['GÖNDERİLER', 'gonderiler'],
+    ['HİKÂYELER', 'anketler'],
+  ];
+  const parcalar = [];
+  for (const [baslik, klasor] of bolumler) {
+    if (!existsSync(yol('cikti', klasor))) continue;
+    const dosyalar = readdirSync(yol('cikti', klasor)).filter((d) => d.endsWith('.txt') && !d.endsWith('-seslendirme.txt'));
+    parcalar.push(`########## ${baslik} ##########`);
+    for (const d of dosyalar.sort()) parcalar.push(`----- ${d.replace(/\.txt$/, '')} -----\n${readFileSync(yol('cikti', klasor, d), 'utf8').trim()}`);
+  }
+  writeFileSync(yol('cikti', 'ACIKLAMALAR.txt'), `${parcalar.join('\n\n')}\n`);
+}
