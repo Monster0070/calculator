@@ -1,0 +1,24 @@
+osym-2025-mat-12.mp4 | TYT Matematik • Asal Sayılar | 54.8 sn
+
+[00:00.3 → 00:02.2]  BAŞLIK
+TYT Matematik!
+
+[00:02.4 → 00:06.2]  ÖSYM SORDU
+ÖSYM bunu 2025'te sordu!
+
+[00:06.7 → 00:25.1]  SORU
+Bir doğal sayının kendisi asal sayı ama rakamlarından hiçbiri asal sayı değilse bu sayıya asalız sayı denir.
+Örneğin 109 bir asalız sayıdır.
+Buna göre iki basamaklı bütün asalız sayıların toplamı kaçtır?
+
+[00:25.1] Üç!   [00:26.1] İki!   [00:27.1] Bir!   (isteğe bağlı, videoda tik sesi var)
+
+[00:28.5 → 00:31.9]  CEVAP
+Doğru cevap E: iki yüz yirmi bir!
+
+[00:31.9 → 00:49.4]  ÇÖZÜM
+Asal olmayan rakamlar sıfır, bir, dört, altı, sekiz ve dokuz. Bu rakamlarla yazılan iki basamaklı asallar on bir, on dokuz, kırk bir, altmış bir ve seksen dokuz. Toplamları iki yüz yirmi bir.
+
+[00:49.8 → 00:54.8]  KAPANIŞ
+Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
+

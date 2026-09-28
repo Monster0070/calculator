@@ -1,19 +1,22 @@
-bio-hucre.mp4 | TYT Biyoloji • Hücre | 28.1 sn
+bio-hucre.mp4 | TYT Biyoloji • Hücre | 30.2 sn
 
-[00:00.4 → 00:02.7]  KANCA
+[00:00.3 → 00:02.2]  BAŞLIK
+TYT Biyoloji!
+
+[00:02.5 → 00:04.8]  KANCA
 Biyolojinin klasik tuzağı!
 
-[00:03.2 → 00:09.3]  SORU
+[00:05.3 → 00:11.4]  SORU
 Aşağıdakilerden hangisi hem bitki hem de hayvan hücresinde bulunur?
 
-[00:09.3] Üç!   [00:10.3] İki!   [00:11.3] Bir!   (isteğe bağlı, videoda tik sesi var)
+[00:11.4] Üç!   [00:12.4] İki!   [00:13.4] Bir!   (isteğe bağlı, videoda tik sesi var)
 
-[00:12.8 → 00:15.9]  CEVAP
+[00:14.9 → 00:18.0]  CEVAP
 Doğru cevap E: mitokondri!
 
-[00:15.9 → 00:22.6]  ÇÖZÜM
+[00:18.0 → 00:24.7]  ÇÖZÜM
 Mitokondri iki hücrede de bulunur. Diğerleri hayvan hücresinde yoktur.
 
-[00:23.1 → 00:28.1]  KAPANIŞ
+[00:25.2 → 00:30.2]  KAPANIŞ
 Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
 

@@ -1,0 +1,23 @@
+osym-2025-mat-32.mp4 | TYT Matematik • Üçgenler | 51.0 sn
+
+[00:00.3 → 00:02.2]  BAŞLIK
+TYT Matematik!
+
+[00:02.4 → 00:06.2]  ÖSYM SORDU
+ÖSYM bunu 2025'te sordu!
+
+[00:06.7 → 00:24.2]  SORU
+Tüm kenarlarının uzunlukları santimetre türünden birbirinden farklı tam sayılar olan bir üçgene çeşitkenar tam sayı üçgen denir.
+Buna göre bir çeşitkenar tam sayı üçgenin çevre uzunluğu en az kaç santimetredir?
+
+[00:24.2] Üç!   [00:25.2] İki!   [00:26.2] Bir!   (isteğe bağlı, videoda tik sesi var)
+
+[00:27.7 → 00:30.4]  CEVAP
+Doğru cevap D: dokuz!
+
+[00:30.4 → 00:45.5]  ÇÖZÜM
+Bir, iki, üç üçgen oluşturmaz. Çevresi yedi ve sekiz olan üçlüler de üçgen eşitsizliğini sağlamaz. En küçük uygun üçlü iki, üç, dört; çevre dokuz santimetre.
+
+[00:46.0 → 00:51.0]  KAPANIŞ
+Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
+

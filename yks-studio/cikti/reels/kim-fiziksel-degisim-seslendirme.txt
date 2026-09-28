@@ -1,19 +1,22 @@
-kim-fiziksel-degisim.mp4 | TYT Kimya • Fiziksel ve Kimyasal Değişim | 26.9 sn
+kim-fiziksel-degisim.mp4 | TYT Kimya • Fiziksel ve Kimyasal Değişim | 28.7 sn
 
-[00:00.4 → 00:02.9]  KANCA
+[00:00.3 → 00:01.9]  BAŞLIK
+TYT Kimya!
+
+[00:02.2 → 00:04.7]  KANCA
 Fiziksel mi, kimyasal mı?
 
-[00:03.4 → 00:08.4]  SORU
+[00:05.2 → 00:10.2]  SORU
 Aşağıdakilerden hangisi fiziksel bir değişimdir?
 
-[00:08.4] Üç!   [00:09.4] İki!   [00:10.4] Bir!   (isteğe bağlı, videoda tik sesi var)
+[00:10.2] Üç!   [00:11.2] İki!   [00:12.2] Bir!   (isteğe bağlı, videoda tik sesi var)
 
-[00:11.8 → 00:15.2]  CEVAP
+[00:13.7 → 00:17.0]  CEVAP
 Doğru cevap C: buzun erimesi!
 
-[00:15.2 → 00:21.4]  ÇÖZÜM
+[00:17.0 → 00:23.3]  ÇÖZÜM
 Erimede maddenin kimliği değişmez. Diğerlerinde yeni madde oluşur.
 
-[00:21.9 → 00:26.9]  KAPANIŞ
+[00:23.7 → 00:28.7]  KAPANIŞ
 Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
 

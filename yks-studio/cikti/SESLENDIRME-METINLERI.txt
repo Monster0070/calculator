@@ -5,148 +5,467 @@ Her metni köşeli parantezdeki aralıkta söyle: ilk saniyede başla, ikinci sa
 Örnek (CapCut): videoyu ekle → Ses → Kayıt ya da Metinden sese → sesi başlangıç saniyesine sürükle.
 
 ============================================================
-mat-uslu-sayilar.mp4 | TYT Matematik • Üslü Sayılar | 28.6 sn
+mat-uslu-sayilar.mp4 | TYT Matematik • Üslü Sayılar | 30.7 sn
 
-[00:00.4 → 00:02.8]  KANCA
+[00:00.3 → 00:02.2]  BAŞLIK
+TYT Matematik!
+
+[00:02.4 → 00:04.9]  KANCA
 Bu soruda çoğu kişi yanılıyor!
 
-[00:03.3 → 00:09.4]  SORU
+[00:05.4 → 00:11.5]  SORU
 İki üssü beş, artı iki üssü beş işleminin sonucu kaçtır?
 
-[00:09.4] Üç!   [00:10.4] İki!   [00:11.4] Bir!   (isteğe bağlı, videoda tik sesi var)
+[00:11.5] Üç!   [00:12.5] İki!   [00:13.5] Bir!   (isteğe bağlı, videoda tik sesi var)
 
-[00:12.9 → 00:16.5]  CEVAP
+[00:15.0 → 00:18.6]  CEVAP
 Doğru cevap D: iki üssü altı!
 
-[00:16.5 → 00:23.2]  ÇÖZÜM
+[00:18.6 → 00:25.2]  ÇÖZÜM
 İki tane iki üssü beş, iki üssü altı eder. Yani altmış dört!
 
-[00:23.6 → 00:28.6]  KAPANIŞ
+[00:25.7 → 00:30.7]  KAPANIŞ
 Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
 
 ============================================================
 
-tr-yazim-kurallari.mp4 | TYT Türkçe • Yazım Kuralları | 26.6 sn
+tr-yazim-kurallari.mp4 | TYT Türkçe • Yazım Kuralları | 28.7 sn
 
-[00:00.4 → 00:03.3]  KANCA
+[00:00.3 → 00:02.2]  BAŞLIK
+TYT Türkçe!
+
+[00:02.5 → 00:05.4]  KANCA
 5 kelimeden sadece biri doğru!
 
-[00:03.8 → 00:08.7]  SORU
+[00:05.9 → 00:10.8]  SORU
 Aşağıdaki kelimelerden hangisinin yazımı doğrudur?
 
-[00:08.7] Üç!   [00:09.7] İki!   [00:10.7] Bir!   (isteğe bağlı, videoda tik sesi var)
+[00:10.8] Üç!   [00:11.8] İki!   [00:12.8] Bir!   (isteğe bağlı, videoda tik sesi var)
 
-[00:12.2 → 00:15.1]  CEVAP
+[00:14.3 → 00:17.2]  CEVAP
 Doğru cevap C: birkaç!
 
-[00:15.1 → 00:21.2]  ÇÖZÜM
+[00:17.2 → 00:23.3]  ÇÖZÜM
 Diğerlerinin doğrusu: herkes, yalnız, şoför ve eşofman.
 
-[00:21.6 → 00:26.6]  KAPANIŞ
+[00:23.7 → 00:28.7]  KAPANIŞ
 Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
 
 ============================================================
 
-fiz-serbest-dusme.mp4 | TYT Fizik • Serbest Düşme | 29.0 sn
+fiz-serbest-dusme.mp4 | TYT Fizik • Serbest Düşme | 30.8 sn
 
-[00:00.4 → 00:02.8]  KANCA
+[00:00.3 → 00:01.9]  BAŞLIK
+TYT Fizik!
+
+[00:02.2 → 00:04.6]  KANCA
 3 saniyede çözebilir misin?
 
-[00:03.3 → 00:09.8]  SORU
+[00:05.1 → 00:11.6]  SORU
 Serbest düşmeye bırakılan bir cisim, iki saniyede kaç metre yol alır?
 
-[00:09.8] Üç!   [00:10.8] İki!   [00:11.8] Bir!   (isteğe bağlı, videoda tik sesi var)
+[00:11.6] Üç!   [00:12.6] İki!   [00:13.6] Bir!   (isteğe bağlı, videoda tik sesi var)
 
-[00:13.2 → 00:16.3]  CEVAP
+[00:15.1 → 00:18.2]  CEVAP
 Doğru cevap B: yirmi metre!
 
-[00:16.3 → 00:23.5]  ÇÖZÜM
+[00:18.2 → 00:25.3]  ÇÖZÜM
 h eşittir yarım g t kare. Yarım çarpı on çarpı dört, yirmi metre.
 
-[00:24.0 → 00:29.0]  KAPANIŞ
+[00:25.8 → 00:30.8]  KAPANIŞ
 Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
 
 ============================================================
 
-bio-hucre.mp4 | TYT Biyoloji • Hücre | 28.1 sn
+bio-hucre.mp4 | TYT Biyoloji • Hücre | 30.2 sn
 
-[00:00.4 → 00:02.7]  KANCA
+[00:00.3 → 00:02.2]  BAŞLIK
+TYT Biyoloji!
+
+[00:02.5 → 00:04.8]  KANCA
 Biyolojinin klasik tuzağı!
 
-[00:03.2 → 00:09.3]  SORU
+[00:05.3 → 00:11.4]  SORU
 Aşağıdakilerden hangisi hem bitki hem de hayvan hücresinde bulunur?
 
-[00:09.3] Üç!   [00:10.3] İki!   [00:11.3] Bir!   (isteğe bağlı, videoda tik sesi var)
+[00:11.4] Üç!   [00:12.4] İki!   [00:13.4] Bir!   (isteğe bağlı, videoda tik sesi var)
 
-[00:12.8 → 00:15.9]  CEVAP
+[00:14.9 → 00:18.0]  CEVAP
 Doğru cevap E: mitokondri!
 
-[00:15.9 → 00:22.6]  ÇÖZÜM
+[00:18.0 → 00:24.7]  ÇÖZÜM
 Mitokondri iki hücrede de bulunur. Diğerleri hayvan hücresinde yoktur.
 
-[00:23.1 → 00:28.1]  KAPANIŞ
+[00:25.2 → 00:30.2]  KAPANIŞ
 Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
 
 ============================================================
 
-tar-gokturkler.mp4 | TYT Tarih • İlk Türk Devletleri | 29.1 sn
+tar-gokturkler.mp4 | TYT Tarih • İlk Türk Devletleri | 30.9 sn
 
-[00:00.4 → 00:02.8]  KANCA
+[00:00.3 → 00:01.9]  BAŞLIK
+TYT Tarih!
+
+[00:02.2 → 00:04.7]  KANCA
 Bu ikisini sakın karıştırma!
 
-[00:03.3 → 00:09.7]  SORU
+[00:05.2 → 00:11.5]  SORU
 Türk adını resmî devlet adı olarak kullanan ilk Türk devleti hangisidir?
 
-[00:09.7] Üç!   [00:10.7] İki!   [00:11.7] Bir!   (isteğe bağlı, videoda tik sesi var)
+[00:11.5] Üç!   [00:12.5] İki!   [00:13.5] Bir!   (isteğe bağlı, videoda tik sesi var)
 
-[00:13.2 → 00:16.2]  CEVAP
+[00:15.0 → 00:18.0]  CEVAP
 Doğru cevap A: Göktürkler!
 
-[00:16.2 → 00:23.6]  ÇÖZÜM
+[00:18.0 → 00:25.5]  ÇÖZÜM
 Bilinen ilk Türk devleti Asya Hun'dur. Türk adını ilk kullanan ise Göktürkler.
 
-[00:24.1 → 00:29.1]  KAPANIŞ
+[00:25.9 → 00:30.9]  KAPANIŞ
 Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
 
 ============================================================
 
-cog-yagis.mp4 | TYT Coğrafya • İklim | 27.2 sn
+cog-yagis.mp4 | TYT Coğrafya • İklim | 29.4 sn
 
-[00:00.4 → 00:02.6]  KANCA
+[00:00.3 → 00:02.2]  BAŞLIK
+TYT Coğrafya!
+
+[00:02.5 → 00:04.8]  KANCA
 Haritaya bakmadan tahmin et!
 
-[00:03.1 → 00:09.4]  SORU
+[00:05.3 → 00:11.5]  SORU
 Türkiye'de yıllık ortalama yağış miktarı en fazla olan il hangisidir?
 
-[00:09.4] Üç!   [00:10.4] İki!   [00:11.4] Bir!   (isteğe bağlı, videoda tik sesi var)
+[00:11.5] Üç!   [00:12.5] İki!   [00:13.5] Bir!   (isteğe bağlı, videoda tik sesi var)
 
-[00:12.8 → 00:15.5]  CEVAP
+[00:15.0 → 00:17.6]  CEVAP
 Doğru cevap D: Rize!
 
-[00:15.5 → 00:21.8]  ÇÖZÜM
+[00:17.6 → 00:23.9]  ÇÖZÜM
 Dağlar kıyıya paralel uzanır. Nemli hava yükselip bol yağış bırakır.
 
-[00:22.2 → 00:27.2]  KAPANIŞ
+[00:24.4 → 00:29.4]  KAPANIŞ
 Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
 
 ============================================================
 
-kim-fiziksel-degisim.mp4 | TYT Kimya • Fiziksel ve Kimyasal Değişim | 26.9 sn
+kim-fiziksel-degisim.mp4 | TYT Kimya • Fiziksel ve Kimyasal Değişim | 28.7 sn
 
-[00:00.4 → 00:02.9]  KANCA
+[00:00.3 → 00:01.9]  BAŞLIK
+TYT Kimya!
+
+[00:02.2 → 00:04.7]  KANCA
 Fiziksel mi, kimyasal mı?
 
-[00:03.4 → 00:08.4]  SORU
+[00:05.2 → 00:10.2]  SORU
 Aşağıdakilerden hangisi fiziksel bir değişimdir?
 
-[00:08.4] Üç!   [00:09.4] İki!   [00:10.4] Bir!   (isteğe bağlı, videoda tik sesi var)
+[00:10.2] Üç!   [00:11.2] İki!   [00:12.2] Bir!   (isteğe bağlı, videoda tik sesi var)
 
-[00:11.8 → 00:15.2]  CEVAP
+[00:13.7 → 00:17.0]  CEVAP
 Doğru cevap C: buzun erimesi!
 
-[00:15.2 → 00:21.4]  ÇÖZÜM
+[00:17.0 → 00:23.3]  ÇÖZÜM
 Erimede maddenin kimliği değişmez. Diğerlerinde yeni madde oluşur.
 
-[00:21.9 → 00:26.9]  KAPANIŞ
+[00:23.7 → 00:28.7]  KAPANIŞ
+Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
+
+============================================================
+
+osym-2026-mat-40.mp4 | TYT Matematik • Prizmalar | 47.3 sn
+
+[00:00.3 → 00:02.2]  BAŞLIK
+TYT Matematik!
+
+[00:02.4 → 00:06.2]  ÖSYM SORDU
+ÖSYM bunu 2026'da sordu!
+
+[00:06.7 → 00:21.4]  SORU
+Yüzey alanı 400 birimkare, hacmi 400 birimküp olan bir dikdörtgenler prizmasının yüzlerinden birinin alanı 40 birimkare olduğuna göre bu yüzünün çevre uzunluğu kaç birimdir?
+
+[00:21.4] Üç!   [00:22.4] İki!   [00:23.4] Bir!   (isteğe bağlı, videoda tik sesi var)
+
+[00:24.9 → 00:27.8]  CEVAP
+Doğru cevap B: otuz iki!
+
+[00:27.8 → 00:41.8]  ÇÖZÜM
+Yüzün kenarlarına a ve b dersek a çarpı b kırk. Hacim dört yüz olduğu için üçüncü kenar on. Yüzey alanından a artı b on altı çıkar, çevre de otuz iki.
+
+[00:42.3 → 00:47.3]  KAPANIŞ
+Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
+
+============================================================
+
+osym-2025-mat-12.mp4 | TYT Matematik • Asal Sayılar | 54.8 sn
+
+[00:00.3 → 00:02.2]  BAŞLIK
+TYT Matematik!
+
+[00:02.4 → 00:06.2]  ÖSYM SORDU
+ÖSYM bunu 2025'te sordu!
+
+[00:06.7 → 00:25.1]  SORU
+Bir doğal sayının kendisi asal sayı ama rakamlarından hiçbiri asal sayı değilse bu sayıya asalız sayı denir.
+Örneğin 109 bir asalız sayıdır.
+Buna göre iki basamaklı bütün asalız sayıların toplamı kaçtır?
+
+[00:25.1] Üç!   [00:26.1] İki!   [00:27.1] Bir!   (isteğe bağlı, videoda tik sesi var)
+
+[00:28.5 → 00:31.9]  CEVAP
+Doğru cevap E: iki yüz yirmi bir!
+
+[00:31.9 → 00:49.4]  ÇÖZÜM
+Asal olmayan rakamlar sıfır, bir, dört, altı, sekiz ve dokuz. Bu rakamlarla yazılan iki basamaklı asallar on bir, on dokuz, kırk bir, altmış bir ve seksen dokuz. Toplamları iki yüz yirmi bir.
+
+[00:49.8 → 00:54.8]  KAPANIŞ
+Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
+
+============================================================
+
+osym-2025-mat-32.mp4 | TYT Matematik • Üçgenler | 51.0 sn
+
+[00:00.3 → 00:02.2]  BAŞLIK
+TYT Matematik!
+
+[00:02.4 → 00:06.2]  ÖSYM SORDU
+ÖSYM bunu 2025'te sordu!
+
+[00:06.7 → 00:24.2]  SORU
+Tüm kenarlarının uzunlukları santimetre türünden birbirinden farklı tam sayılar olan bir üçgene çeşitkenar tam sayı üçgen denir.
+Buna göre bir çeşitkenar tam sayı üçgenin çevre uzunluğu en az kaç santimetredir?
+
+[00:24.2] Üç!   [00:25.2] İki!   [00:26.2] Bir!   (isteğe bağlı, videoda tik sesi var)
+
+[00:27.7 → 00:30.4]  CEVAP
+Doğru cevap D: dokuz!
+
+[00:30.4 → 00:45.5]  ÇÖZÜM
+Bir, iki, üç üçgen oluşturmaz. Çevresi yedi ve sekiz olan üçlüler de üçgen eşitsizliğini sağlamaz. En küçük uygun üçlü iki, üç, dört; çevre dokuz santimetre.
+
+[00:46.0 → 00:51.0]  KAPANIŞ
+Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
+
+============================================================
+
+osym-2025-fiz-2.mp4 | TYT Fizik • Hareket | 61.4 sn
+
+[00:00.3 → 00:01.9]  BAŞLIK
+TYT Fizik!
+
+[00:02.2 → 00:05.9]  ÖSYM SORDU
+ÖSYM bunu 2025'te sordu!
+
+[00:06.4 → 00:35.5]  SORU
+Ali kolundaki akıllı saat sayesinde günlük adım sayısını ölçebilmektedir. Saat sekizde evinin dış kapısından çıkıp akşam on altıda evinin dış kapısındaki aynı noktaya geri dönen Ali, bu zaman aralığında toplam on bin adım attığını tespit ediyor. Ali'nin bir adımı ortalama seksen santimetre olduğuna göre, belirtilen saatler arasındaki ortalama hızının büyüklüğü kaç kilometre bölü saattir?
+
+[00:35.5] Üç!   [00:36.5] İki!   [00:37.5] Bir!   (isteğe bağlı, videoda tik sesi var)
+
+[00:39.0 → 00:41.8]  CEVAP
+Doğru cevap A: sıfır!
+
+[00:41.8 → 00:56.0]  ÇÖZÜM
+Ali aynı noktaya döndüğü için yer değiştirmesi sıfır, ortalama hızı da sıfır. Sekiz kilometreyi sekiz saatte yürüdüğü için bir kilometre bölü saat ise ortalama sürat olurdu.
+
+[00:56.4 → 01:01.4]  KAPANIŞ
+Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
+
+============================================================
+
+osym-2026-fiz-7.mp4 | TYT Fizik • Aynalar | 51.2 sn
+
+[00:00.3 → 00:01.9]  BAŞLIK
+TYT Fizik!
+
+[00:02.2 → 00:06.0]  ÖSYM SORDU
+ÖSYM bunu 2026'da sordu!
+
+[00:06.5 → 00:28.3]  SORU
+Boyu bir metre seksen santimetre olan Ali, bir cam atölyesindeki farklı türdeki büyük aynaların karşısında sırayla durup görüntüsünün boyunu ölçüyor. Ali kendi görüntüsünün boyunu düzlem, tümsek ve çukur aynaların hangilerine bakarken bir metre seksenden daha uzun ölçmüş olabilir?
+
+[00:28.3] Üç!   [00:29.3] İki!   [00:30.3] Bir!   (isteğe bağlı, videoda tik sesi var)
+
+[00:31.7 → 00:34.9]  CEVAP
+Doğru cevap C: yalnız üç!
+
+[00:34.9 → 00:45.7]  ÇÖZÜM
+Düzlem aynada görüntü boyu eşittir, tümsek aynada ise her zaman küçüktür. Görüntü sadece çukur aynada büyük olabilir.
+
+[00:46.2 → 00:51.2]  KAPANIŞ
+Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
+
+============================================================
+
+osym-2024-kim-13.mp4 | TYT Kimya • Çözeltiler | 52.3 sn
+
+[00:00.3 → 00:01.9]  BAŞLIK
+TYT Kimya!
+
+[00:02.2 → 00:06.0]  ÖSYM SORDU
+ÖSYM bunu 2024'te sordu!
+
+[00:06.5 → 00:31.0]  SORU
+Belirli bir sıcaklıkta, 80 gram tuz ile 120 gram su karıştırılıyor. Daha fazla çözünme olmayıncaya kadar beklendiğinde tuzun 40 gramının, kabın dibinde çözünmeden kaldığı gözlemleniyor.
+Buna göre çözeltide tuzun kütlece yüzde derişimi kaçtır?
+(Suyun buharlaşmadığı varsayılacaktır.)
+
+[00:31.0] Üç!   [00:32.0] İki!   [00:33.0] Bir!   (isteğe bağlı, videoda tik sesi var)
+
+[00:34.5 → 00:37.9]  CEVAP
+Doğru cevap B: yüzde yirmi beş!
+
+[00:37.9 → 00:46.9]  ÇÖZÜM
+Çözünen tuz kırk gram, çözelti kütlesi yüz altmış gram. Kırkın yüz altmışa oranı yüzde yirmi beş.
+
+[00:47.3 → 00:52.3]  KAPANIŞ
+Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
+
+============================================================
+
+osym-2024-kim-9.mp4 | TYT Kimya • Atom Modelleri | 48.7 sn
+
+[00:00.3 → 00:01.9]  BAŞLIK
+TYT Kimya!
+
+[00:02.2 → 00:06.0]  ÖSYM SORDU
+ÖSYM bunu 2024'te sordu!
+
+[00:06.5 → 00:25.3]  SORU
+Rutherford Atom Modeli’ne göre
+I. Atomda pozitif yükler çekirdekte toplanmıştır.
+II. Atomda elektronlar orbitallerde bulunur.
+III. Atom hacminin büyük bir kısmı boşluktur.
+ifadelerinden hangileri doğrudur?
+
+[00:25.3] Üç!   [00:26.3] İki!   [00:27.3] Bir!   (isteğe bağlı, videoda tik sesi var)
+
+[00:28.7 → 00:31.8]  CEVAP
+Doğru cevap D: bir ve üç!
+
+[00:31.8 → 00:43.3]  ÇÖZÜM
+Rutherford'a göre pozitif yükler çekirdekte toplanır ve atomun büyük kısmı boşluktur. Orbital kavramı ise modern atom modeline aittir.
+
+[00:43.7 → 00:48.7]  KAPANIŞ
+Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
+
+============================================================
+
+osym-2026-bio-17.mp4 | TYT Biyoloji • Hücre | 37.4 sn
+
+[00:00.3 → 00:02.2]  BAŞLIK
+TYT Biyoloji!
+
+[00:02.5 → 00:06.2]  ÖSYM SORDU
+ÖSYM bunu 2026'da sordu!
+
+[00:06.7 → 00:14.5]  SORU
+Aşağıdaki özelliklerden hangisine sahip olması bir canlının ökaryotik olduğunu kanıtlar?
+
+[00:14.5] Üç!   [00:15.5] İki!   [00:16.5] Bir!   (isteğe bağlı, videoda tik sesi var)
+
+[00:18.0 → 00:21.1]  CEVAP
+Doğru cevap E: mitokondri!
+
+[00:21.1 → 00:32.0]  ÇÖZÜM
+Mitokondri zarlı bir organeldir ve zarlı organeller sadece ökaryotlarda bulunur. Diğer özellikler prokaryotlarda da görülür.
+
+[00:32.4 → 00:37.4]  KAPANIŞ
+Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
+
+============================================================
+
+osym-2024-bio-16.mp4 | TYT Biyoloji • Organik Moleküller | 33.9 sn
+
+[00:00.3 → 00:02.2]  BAŞLIK
+TYT Biyoloji!
+
+[00:02.5 → 00:06.3]  ÖSYM SORDU
+ÖSYM bunu 2024'te sordu!
+
+[00:06.8 → 00:12.6]  SORU
+Aşağıdaki organik moleküllerden hangisi bir polimer değildir?
+
+[00:12.6] Üç!   [00:13.6] İki!   [00:14.6] Bir!   (isteğe bağlı, videoda tik sesi var)
+
+[00:16.1 → 00:19.3]  CEVAP
+Doğru cevap D: trigliserit!
+
+[00:19.3 → 00:28.4]  ÇÖZÜM
+Trigliserit bir gliserol ve üç yağ asidinden oluşur, tekrarlanan birimlerden oluşmadığı için polimer değildir.
+
+[00:28.9 → 00:33.9]  KAPANIŞ
+Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
+
+============================================================
+
+osym-2026-cog-9.mp4 | TYT Coğrafya • Bölgeler | 45.7 sn
+
+[00:00.3 → 00:02.2]  BAŞLIK
+TYT Coğrafya!
+
+[00:02.5 → 00:06.3]  ÖSYM SORDU
+ÖSYM bunu 2026'da sordu!
+
+[00:06.8 → 00:22.4]  SORU
+Belirli bir amaç doğrultusunda oluşturulan bölgelerden bazılarının sınırları diğerlerine göre daha kısa bir zaman diliminde değişmektedir.
+Aşağıdakilerden hangisi bu duruma örnek gösterilebilir?
+
+[00:22.4] Üç!   [00:23.4] İki!   [00:24.4] Bir!   (isteğe bağlı, videoda tik sesi var)
+
+[00:25.8 → 00:29.3]  CEVAP
+Doğru cevap D: yönetsel bölge!
+
+[00:29.3 → 00:40.2]  ÇÖZÜM
+Yönetsel bölgelerin sınırlarını insanlar belirler ve kısa sürede değişebilir. Doğal bölgelerin sınırları ise çok uzun sürede değişir.
+
+[00:40.7 → 00:45.7]  KAPANIŞ
+Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
+
+============================================================
+
+osym-2024-tar-2.mp4 | TYT Tarih • Türkiye Selçukluları | 47.2 sn
+
+[00:00.3 → 00:01.9]  BAŞLIK
+TYT Tarih!
+
+[00:02.2 → 00:06.0]  ÖSYM SORDU
+ÖSYM bunu 2024'te sordu!
+
+[00:06.5 → 00:23.3]  SORU
+Birinci Alâeddin Keykubad'ın Moğollara karşı birlikte hareket etme teklifini reddeden, Ahlat'ı kuşatarak Anadolu için tehdit oluşturan ve Yassıçemen Savaşı'nda Türkiye Selçukluları tarafından mağlup edilen devlet hangisidir?
+
+[00:23.3] Üç!   [00:24.3] İki!   [00:25.3] Bir!   (isteğe bağlı, videoda tik sesi var)
+
+[00:26.7 → 00:30.0]  CEVAP
+Doğru cevap E: Harzemşahlar!
+
+[00:30.0 → 00:41.8]  ÇÖZÜM
+Bin iki yüz otuzdaki Yassıçemen Savaşı'nda Türkiye Selçukluları Harzemşahları yendi. Böylece Anadolu ile Moğollar arasındaki tampon ortadan kalktı.
+
+[00:42.2 → 00:47.2]  KAPANIŞ
+Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
+
+============================================================
+
+osym-2025-tr-12.mp4 | TYT Türkçe • Yazım Kuralları | 54.4 sn
+
+[00:00.3 → 00:02.2]  BAŞLIK
+TYT Türkçe!
+
+[00:02.5 → 00:06.2]  ÖSYM SORDU
+ÖSYM bunu 2025'te sordu!
+
+[00:06.7 → 00:33.6]  SORU
+Fiziğin yirminci yüzyıl boyunca gerçekleştirdiği olağanüstü gelişmelere benzer başarıların kaydedildiği bir diğer bilim dalı astronomidir. Uzak geçmişten modern çağa kadar gökbilimciler, her dönem evreni tanımak, onun nasıl oluştuğunu ve katettiği evreleri belirlemek için büyük çaba göstermiştir. Bu parçada numaralanmış sözlerden hangisinin yazımı yanlıştır?
+
+[00:33.6] Üç!   [00:34.6] İki!   [00:35.6] Bir!   (isteğe bağlı, videoda tik sesi var)
+
+[00:37.1 → 00:40.3]  CEVAP
+Doğru cevap D: gökbilimciler!
+
+[00:40.3 → 00:49.0]  ÇÖZÜM
+Gök bilimci ayrı yazılır. Olağanüstü, kaydedildiği, bilim dalı ve katettiği ise doğru yazılmış.
+
+[00:49.4 → 00:54.4]  KAPANIŞ
 Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
 

@@ -1,0 +1,22 @@
+osym-2025-fiz-2.mp4 | TYT Fizik • Hareket | 61.4 sn
+
+[00:00.3 → 00:01.9]  BAŞLIK
+TYT Fizik!
+
+[00:02.2 → 00:05.9]  ÖSYM SORDU
+ÖSYM bunu 2025'te sordu!
+
+[00:06.4 → 00:35.5]  SORU
+Ali kolundaki akıllı saat sayesinde günlük adım sayısını ölçebilmektedir. Saat sekizde evinin dış kapısından çıkıp akşam on altıda evinin dış kapısındaki aynı noktaya geri dönen Ali, bu zaman aralığında toplam on bin adım attığını tespit ediyor. Ali'nin bir adımı ortalama seksen santimetre olduğuna göre, belirtilen saatler arasındaki ortalama hızının büyüklüğü kaç kilometre bölü saattir?
+
+[00:35.5] Üç!   [00:36.5] İki!   [00:37.5] Bir!   (isteğe bağlı, videoda tik sesi var)
+
+[00:39.0 → 00:41.8]  CEVAP
+Doğru cevap A: sıfır!
+
+[00:41.8 → 00:56.0]  ÇÖZÜM
+Ali aynı noktaya döndüğü için yer değiştirmesi sıfır, ortalama hızı da sıfır. Sekiz kilometreyi sekiz saatte yürüdüğü için bir kilometre bölü saat ise ortalama sürat olurdu.
+
+[00:56.4 → 01:01.4]  KAPANIŞ
+Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
+

@@ -1,0 +1,22 @@
+osym-2026-mat-40.mp4 | TYT Matematik • Prizmalar | 47.3 sn
+
+[00:00.3 → 00:02.2]  BAŞLIK
+TYT Matematik!
+
+[00:02.4 → 00:06.2]  ÖSYM SORDU
+ÖSYM bunu 2026'da sordu!
+
+[00:06.7 → 00:21.4]  SORU
+Yüzey alanı 400 birimkare, hacmi 400 birimküp olan bir dikdörtgenler prizmasının yüzlerinden birinin alanı 40 birimkare olduğuna göre bu yüzünün çevre uzunluğu kaç birimdir?
+
+[00:21.4] Üç!   [00:22.4] İki!   [00:23.4] Bir!   (isteğe bağlı, videoda tik sesi var)
+
+[00:24.9 → 00:27.8]  CEVAP
+Doğru cevap B: otuz iki!
+
+[00:27.8 → 00:41.8]  ÇÖZÜM
+Yüzün kenarlarına a ve b dersek a çarpı b kırk. Hacim dört yüz olduğu için üçüncü kenar on. Yüzey alanından a artı b on altı çıkar, çevre de otuz iki.
+
+[00:42.3 → 00:47.3]  KAPANIŞ
+Doğru bildiysen yorumlara yaz, takip etmeyi unutma!
+
