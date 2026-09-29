@@ -14,7 +14,8 @@ import { jsonOku, proxyIleYenidenBaslat, yol } from './lib/araclar.mjs';
 
 await proxyIleYenidenBaslat();
 
-const API = `https://graph.instagram.com/${process.env.IG_API_SURUM ?? 'v23.0'}`;
+// Yeni bir Meta uygulaması, oluşturulduğu andaki sürümden eskisini çağıramaz (Eylül 2026'da en yenisi v26.0)
+const API = `https://graph.instagram.com/${process.env.IG_API_SURUM ?? 'v26.0'}`;
 const DEPO = process.env.IG_MEDYA_DEPOSU ?? 'Monster0070/calculator';
 const DURUM = yol('paylasim', 'durum.json');
 

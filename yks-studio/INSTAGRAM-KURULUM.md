@@ -14,16 +14,25 @@ Instagram → Profil → ☰ → **Hesap türü ve araçlar** → **Profesyonel 
 
 ## 3. Uygulama oluştur
 
+Yapıldı: uygulaman **Enes Sosyal Yönetim** (Uygulama Kimliği `1095710539534908`), geliştirme modunda.
+Sadece kendi hesabında paylaşım yapacağı için bu mod yeterli: uygulama incelemesi (App Review) ya da canlıya alma gerekmez.
+
+Baştan kurman gerekirse:
+
 1. **Uygulamalarım → Uygulama oluştur**
-2. Ad: `resesifnet-paylasim`
-3. Kullanım durumu: **Instagram'da mesajları ve içeriği yönet** (Instagram API)
-4. İşletme portföyü sorarsa "şimdilik bağlama" seçeneğiyle devam et, ardından **Oluştur**.
+2. Kullanım durumu: **Instagram'da mesajları ve içeriği yönet** (Instagram API). Tür sorarsa **İşletme**.
+3. İşletme portföyü sorarsa "şimdilik bağlama" seçeneğiyle devam et, ardından **Oluştur**.
 
 ## 4. Token al
 
-1. Uygulama panelinde: **Kullanım durumları → Instagram API → Instagram girişi ile API kurulumu**
-2. **Erişim tokenları oluştur** bölümünde **Hesap ekle**'ye bas, Instagram'a **@resesifnet** ile giriş yap ve izinleri onayla.
-3. Hesabın yanındaki **Token oluştur**'a bas ve çıkan uzun metni kopyala. Bu token 60 gün geçerli, 19 günlük plan için yeterli.
+1. Uygulama panelini aç: <https://developers.facebook.com/apps/1095710539534908/dashboard/>
+2. Sol menüde **Instagram → API setup with Instagram business login** (Türkçe arayüzde "Instagram girişi ile API kurulumu").
+   Menüde yoksa **Kullanım durumları → Instagram → Özelleştir** yolunu dene.
+3. **Erişim tokenları oluştur** bölümünde **Hesap ekle**'ye bas, Instagram'a **@resesifnet** ile giriş yap ve izinleri onayla.
+4. Hesabın yanındaki **Token oluştur**'a bas ve çıkan uzun metni kopyala. Bu token 60 gün geçerli, 19 günlük plan için yeterli.
+
+Sol menüde Instagram hiç yoksa uygulamaya bu kullanım durumu eklenmemiş demektir: **Kullanım durumları → Kullanım durumu ekle →
+Instagram'da mesajları ve içeriği yönet**. Eklenemiyorsa yeni bir **İşletme** türü uygulama oluştur.
 
 "Hesap eklenemedi" ya da "test kullanıcısı değil" uyarısı çıkarsa:
 
@@ -35,8 +44,9 @@ Instagram → Profil → ☰ → **Hesap türü ve araçlar** → **Profesyonel 
 
 Claude oturumunun başlığındaki **bulut ortamı menüsü → Edit**:
 
-- **Ortam değişkeni:** `IG_ACCESS_TOKEN` = kopyaladığın token
-- **Network access:** izinli alan adlarına `graph.instagram.com` ekle, ya da daha geniş bir erişim seviyesi seç.
+- **Token:** ad `IG_ACCESS_TOKEN`, değer kopyaladığın token. **API credentials** bölümü varsa oraya, yoksa ortam değişkeni olarak ekle.
+- **Network access:** izinli alan adlarına `graph.instagram.com` ekle, ya da daha geniş bir erişim seviyesi seç
+  (seviyeler: <https://code.claude.com/docs/en/claude-code-on-the-web>).
 
 Bu ayarlar yeni açılan oturumlarda geçerli olur.
 

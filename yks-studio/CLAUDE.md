@@ -38,6 +38,12 @@ pushed commit on GitHub (jsDelivr, fallback raw.githubusercontent), so commit + 
 (`npm run jpg`, also run by `npm run render`). The plan is `paylasim/plan.json`; after publishing, commit + push
 `paylasim/durum.json`. Stories with poll/quiz stickers can't be posted via the API, so the user posts those manually.
 
+The user's Meta app is **Enes Sosyal Yönetim** (App ID `1095710539534908`, development mode). Standard Access covers their own
+account, so no App Review or Live mode is needed. The token comes from App Dashboard > Instagram > API setup with Instagram business
+login > Generate token (60 days). If the META DEVELOPERS connector is attached, it can read this app's settings, deprecations and the
+docs, but it can't create tokens or publish. The script defaults to API v26.0 because a new app can't call versions older than the one
+current when it was created (override with `IG_API_SURUM`).
+
 ## Workflow for new content
 
 1. Add items to `icerik/*.json` (ids: `[a-z0-9-]`). For math, write explicit `soruSes`/`aciklamaSes` (spoken Turkish).
